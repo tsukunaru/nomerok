@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "mushroom-house",
+  "order": 45,
+  "title": {
+    "ru": "Домик-гриб",
+    "en": "Mushroom House"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "грибной домик"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "mushroom house"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#802827"
+    },
+    {
+      "id": 2,
+      "color": "#274428"
+    },
+    {
+      "id": 3,
+      "color": "#6B4B55"
+    },
+    {
+      "id": 4,
+      "color": "#DD4330"
+    },
+    {
+      "id": 5,
+      "color": "#607E1F"
+    },
+    {
+      "id": 6,
+      "color": "#9C6856"
+    },
+    {
+      "id": 7,
+      "color": "#D7946A"
+    },
+    {
+      "id": 8,
+      "color": "#AAA8D3"
+    },
+    {
+      "id": 9,
+      "color": "#F0D4BF"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 1178
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "witch-traveling-house",
+  "order": 120,
+  "title": {
+    "ru": "Домик ведьмы на колёсах",
+    "en": "Witch's Traveling House"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "домик ведьмы на колёсах"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "witch's traveling house"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#28170C"
+    },
+    {
+      "id": 2,
+      "color": "#5E3115"
+    },
+    {
+      "id": 3,
+      "color": "#324420"
+    },
+    {
+      "id": 4,
+      "color": "#8C4A1A"
+    },
+    {
+      "id": 5,
+      "color": "#7C575B"
+    },
+    {
+      "id": 6,
+      "color": "#617529"
+    },
+    {
+      "id": 7,
+      "color": "#B06C26"
+    },
+    {
+      "id": 8,
+      "color": "#DA7E1C"
+    },
+    {
+      "id": 9,
+      "color": "#C98791"
+    },
+    {
+      "id": 10,
+      "color": "#D49E46"
+    },
+    {
+      "id": 11,
+      "color": "#F6B52B"
+    },
+    {
+      "id": 12,
+      "color": "#F7D86D"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 5162
+  }
+}

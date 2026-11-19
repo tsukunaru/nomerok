@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "cloud-dragon",
+  "order": 119,
+  "title": {
+    "ru": "Облачный дракон",
+    "en": "Cloud Dragon"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "облачный дракон"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "cloud dragon"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#080C35"
+    },
+    {
+      "id": 2,
+      "color": "#24337B"
+    },
+    {
+      "id": 3,
+      "color": "#475FC4"
+    },
+    {
+      "id": 4,
+      "color": "#81719A"
+    },
+    {
+      "id": 5,
+      "color": "#6B83E1"
+    },
+    {
+      "id": 6,
+      "color": "#24AEFB"
+    },
+    {
+      "id": 7,
+      "color": "#CA9B8E"
+    },
+    {
+      "id": 8,
+      "color": "#9BA5EC"
+    },
+    {
+      "id": 9,
+      "color": "#83CEFB"
+    },
+    {
+      "id": 10,
+      "color": "#C8CFF4"
+    },
+    {
+      "id": 11,
+      "color": "#F2D4A8"
+    },
+    {
+      "id": 12,
+      "color": "#F6F5F8"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 5615
+  }
+}

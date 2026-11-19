@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "enchanted-teapot",
+  "order": 107,
+  "title": {
+    "ru": "Зачарованный чайник",
+    "en": "Enchanted Teapot"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "зачарованный чайник"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "enchanted teapot"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#12254F"
+    },
+    {
+      "id": 2,
+      "color": "#683B22"
+    },
+    {
+      "id": 3,
+      "color": "#0A537E"
+    },
+    {
+      "id": 4,
+      "color": "#4C4178"
+    },
+    {
+      "id": 5,
+      "color": "#7D6E5E"
+    },
+    {
+      "id": 6,
+      "color": "#B47126"
+    },
+    {
+      "id": 7,
+      "color": "#10A0A9"
+    },
+    {
+      "id": 8,
+      "color": "#5797DF"
+    },
+    {
+      "id": 9,
+      "color": "#B0AFC1"
+    },
+    {
+      "id": 10,
+      "color": "#E1B95F"
+    },
+    {
+      "id": 11,
+      "color": "#8EE4F3"
+    },
+    {
+      "id": 12,
+      "color": "#F9FAF7"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 3688
+  }
+}

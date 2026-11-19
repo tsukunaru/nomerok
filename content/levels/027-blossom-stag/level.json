@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "blossom-stag",
+  "order": 27,
+  "title": {
+    "ru": "Олень цветущего леса",
+    "en": "Blossom Stag"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "олень цветущего леса"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "blossom stag"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#32373A"
+    },
+    {
+      "id": 2,
+      "color": "#70332A"
+    },
+    {
+      "id": 3,
+      "color": "#6E5B65"
+    },
+    {
+      "id": 4,
+      "color": "#636E1A"
+    },
+    {
+      "id": 5,
+      "color": "#3A75BE"
+    },
+    {
+      "id": 6,
+      "color": "#D76C78"
+    },
+    {
+      "id": 7,
+      "color": "#998DA2"
+    },
+    {
+      "id": 8,
+      "color": "#CBB9BE"
+    },
+    {
+      "id": 9,
+      "color": "#F3E1D4"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 683
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-swan",
+  "order": 115,
+  "title": {
+    "ru": "Кристальный лебедь",
+    "en": "Crystal Swan"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальный лебедь"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal swan"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2C263D"
+    },
+    {
+      "id": 2,
+      "color": "#1A2AC0"
+    },
+    {
+      "id": 3,
+      "color": "#3550E5"
+    },
+    {
+      "id": 4,
+      "color": "#575CB2"
+    },
+    {
+      "id": 5,
+      "color": "#A37162"
+    },
+    {
+      "id": 6,
+      "color": "#707EE6"
+    },
+    {
+      "id": 7,
+      "color": "#3590F6"
+    },
+    {
+      "id": 8,
+      "color": "#DC9851"
+    },
+    {
+      "id": 9,
+      "color": "#ADB0F0"
+    },
+    {
+      "id": 10,
+      "color": "#7DC5FA"
+    },
+    {
+      "id": 11,
+      "color": "#DEBDA0"
+    },
+    {
+      "id": 12,
+      "color": "#EBE9F3"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 4348
+  }
+}

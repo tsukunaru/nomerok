@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "treasure-dragon",
+  "order": 73,
+  "title": {
+    "ru": "Дракончик с сокровищами",
+    "en": "Treasure Dragon"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "дракончик с сокровищами"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "treasure dragon"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#5A1811"
+    },
+    {
+      "id": 2,
+      "color": "#932417"
+    },
+    {
+      "id": 3,
+      "color": "#E23323"
+    },
+    {
+      "id": 4,
+      "color": "#1D6E8F"
+    },
+    {
+      "id": 5,
+      "color": "#B45814"
+    },
+    {
+      "id": 6,
+      "color": "#E98625"
+    },
+    {
+      "id": 7,
+      "color": "#D08B54"
+    },
+    {
+      "id": 8,
+      "color": "#70C1B9"
+    },
+    {
+      "id": 9,
+      "color": "#FBC44E"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2462
+  }
+}

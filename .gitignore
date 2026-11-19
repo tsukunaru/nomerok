@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+public/generated/
+.catalog-fixture/
+.cache/
+qa/
+content/imports/*
+!content/imports/README.md
+!content/imports/defaults.json
+.DS_Store
+*.log

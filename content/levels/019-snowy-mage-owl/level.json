@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "snowy-mage-owl",
+  "order": 19,
+  "title": {
+    "ru": "Снежная сова мага",
+    "en": "Mage Owl"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "сова мага"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "mage owl"
+    ]
+  },
+  "difficulty": 2,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#3D2C1F"
+    },
+    {
+      "id": 2,
+      "color": "#704C21"
+    },
+    {
+      "id": 3,
+      "color": "#6E5F72"
+    },
+    {
+      "id": 4,
+      "color": "#A67542"
+    },
+    {
+      "id": 5,
+      "color": "#2B92CD"
+    },
+    {
+      "id": 6,
+      "color": "#B19FAA"
+    },
+    {
+      "id": 7,
+      "color": "#E8DAD4"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 30,
+    "rows": 30,
+    "regionCount": 437
+  }
+}

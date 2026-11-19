@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 4,
+  "id": "sun-moon-observatory",
+  "order": 103,
+  "title": {
+    "ru": "Обсерватория Солнца и Луны",
+    "en": "Sun and Moon Observatory"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "обсерватория солнца и луны"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "sun and moon observatory"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#15161C"
+    },
+    {
+      "id": 2,
+      "color": "#1D2344"
+    },
+    {
+      "id": 3,
+      "color": "#382921"
+    },
+    {
+      "id": 4,
+      "color": "#533E3B"
+    },
+    {
+      "id": 5,
+      "color": "#7F4E21"
+    },
+    {
+      "id": 6,
+      "color": "#7B5E53"
+    },
+    {
+      "id": 7,
+      "color": "#6878A8"
+    },
+    {
+      "id": 8,
+      "color": "#BB762B"
+    },
+    {
+      "id": 9,
+      "color": "#B08160"
+    },
+    {
+      "id": 10,
+      "color": "#F0BA54"
+    },
+    {
+      "id": 11,
+      "color": "#9FCAEA"
+    },
+    {
+      "id": 12,
+      "color": "#FCF2A5"
+    }
+  ]
+}

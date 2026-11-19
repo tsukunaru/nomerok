@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-grotto",
+  "order": 105,
+  "title": {
+    "ru": "Кристальный грот",
+    "en": "Crystal Grotto"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальный грот"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal grotto"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#171D31"
+    },
+    {
+      "id": 2,
+      "color": "#2C3461"
+    },
+    {
+      "id": 3,
+      "color": "#21409E"
+    },
+    {
+      "id": 4,
+      "color": "#5634D6"
+    },
+    {
+      "id": 5,
+      "color": "#4F4A3A"
+    },
+    {
+      "id": 6,
+      "color": "#A141E4"
+    },
+    {
+      "id": 7,
+      "color": "#1C7CDA"
+    },
+    {
+      "id": 8,
+      "color": "#8D722E"
+    },
+    {
+      "id": 9,
+      "color": "#987C6F"
+    },
+    {
+      "id": 10,
+      "color": "#E76AF7"
+    },
+    {
+      "id": 11,
+      "color": "#53B9F3"
+    },
+    {
+      "id": 12,
+      "color": "#BAE3F9"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 4295
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "celestial-scales",
+  "order": 82,
+  "title": {
+    "ru": "Небесные весы",
+    "en": "Celestial Scales"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "небесные весы"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "celestial scales"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#202751"
+    },
+    {
+      "id": 2,
+      "color": "#1D357D"
+    },
+    {
+      "id": 3,
+      "color": "#4E465F"
+    },
+    {
+      "id": 4,
+      "color": "#764826"
+    },
+    {
+      "id": 5,
+      "color": "#2656CD"
+    },
+    {
+      "id": 6,
+      "color": "#78709B"
+    },
+    {
+      "id": 7,
+      "color": "#96725F"
+    },
+    {
+      "id": 8,
+      "color": "#BF741F"
+    },
+    {
+      "id": 9,
+      "color": "#C7A492"
+    },
+    {
+      "id": 10,
+      "color": "#F1B53D"
+    },
+    {
+      "id": 11,
+      "color": "#A9D0F8"
+    },
+    {
+      "id": 12,
+      "color": "#F7E7B1"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 2759
+  }
+}

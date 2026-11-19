@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "celestial-compass",
+  "order": 20,
+  "title": {
+    "ru": "Небесный компас",
+    "en": "Celestial Compass"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "небесный компас"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "celestial compass"
+    ]
+  },
+  "difficulty": 2,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#23338C"
+    },
+    {
+      "id": 2,
+      "color": "#74361D"
+    },
+    {
+      "id": 3,
+      "color": "#695C70"
+    },
+    {
+      "id": 4,
+      "color": "#476CD9"
+    },
+    {
+      "id": 5,
+      "color": "#A86429"
+    },
+    {
+      "id": 6,
+      "color": "#C9954F"
+    },
+    {
+      "id": 7,
+      "color": "#B49EE7"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 30,
+    "rows": 30,
+    "regionCount": 354
+  }
+}

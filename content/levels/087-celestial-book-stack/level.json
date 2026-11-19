@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "celestial-book-stack",
+  "order": 87,
+  "title": {
+    "ru": "Стопка небесных книг",
+    "en": "Celestial Book Stack"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "небесные книги мага"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "celestial book stack"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#25172D"
+    },
+    {
+      "id": 2,
+      "color": "#5B2C1C"
+    },
+    {
+      "id": 3,
+      "color": "#383A6F"
+    },
+    {
+      "id": 4,
+      "color": "#8E4A20"
+    },
+    {
+      "id": 5,
+      "color": "#6C5D74"
+    },
+    {
+      "id": 6,
+      "color": "#1D7DE6"
+    },
+    {
+      "id": 7,
+      "color": "#A8704A"
+    },
+    {
+      "id": 8,
+      "color": "#C8731D"
+    },
+    {
+      "id": 9,
+      "color": "#D69658"
+    },
+    {
+      "id": 10,
+      "color": "#EFBE7F"
+    },
+    {
+      "id": 11,
+      "color": "#86DEFA"
+    },
+    {
+      "id": 12,
+      "color": "#FBE3AD"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 2841
+  }
+}

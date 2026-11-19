@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "celestial-armillary",
+  "order": 94,
+  "title": {
+    "ru": "Небесная армиллярная сфера",
+    "en": "Celestial Armillary"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "небесная армиллярная сфера"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "celestial armillary"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#1D1D68"
+    },
+    {
+      "id": 2,
+      "color": "#381E21"
+    },
+    {
+      "id": 3,
+      "color": "#65361F"
+    },
+    {
+      "id": 4,
+      "color": "#383AA3"
+    },
+    {
+      "id": 5,
+      "color": "#6A4B47"
+    },
+    {
+      "id": 6,
+      "color": "#A66226"
+    },
+    {
+      "id": 7,
+      "color": "#9E705C"
+    },
+    {
+      "id": 8,
+      "color": "#7C80D5"
+    },
+    {
+      "id": 9,
+      "color": "#DF9734"
+    },
+    {
+      "id": 10,
+      "color": "#D39D6E"
+    },
+    {
+      "id": 11,
+      "color": "#F1BF7B"
+    },
+    {
+      "id": 12,
+      "color": "#F7DAAB"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 2814
+  }
+}

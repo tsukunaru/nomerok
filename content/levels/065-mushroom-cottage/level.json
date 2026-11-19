@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "mushroom-cottage",
+  "order": 65,
+  "title": {
+    "ru": "Грибной коттедж",
+    "en": "Mushroom Cottage"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "грибной домик"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "mushroom cottage"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#313423"
+    },
+    {
+      "id": 2,
+      "color": "#7D3C2F"
+    },
+    {
+      "id": 3,
+      "color": "#DE2C2A"
+    },
+    {
+      "id": 4,
+      "color": "#556729"
+    },
+    {
+      "id": 5,
+      "color": "#9A7063"
+    },
+    {
+      "id": 6,
+      "color": "#E46D3E"
+    },
+    {
+      "id": 7,
+      "color": "#95971C"
+    },
+    {
+      "id": 8,
+      "color": "#DEA682"
+    },
+    {
+      "id": 9,
+      "color": "#EBDAD2"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2173
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "moon-moth",
+  "order": 116,
+  "title": {
+    "ru": "Лунный мотылёк",
+    "en": "Moon Moth"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "лунный мотылёк"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "moon moth"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#201F68"
+    },
+    {
+      "id": 2,
+      "color": "#272B92"
+    },
+    {
+      "id": 3,
+      "color": "#4548B7"
+    },
+    {
+      "id": 4,
+      "color": "#5E4D77"
+    },
+    {
+      "id": 5,
+      "color": "#6E6ACE"
+    },
+    {
+      "id": 6,
+      "color": "#557DF0"
+    },
+    {
+      "id": 7,
+      "color": "#A07B70"
+    },
+    {
+      "id": 8,
+      "color": "#9083A6"
+    },
+    {
+      "id": 9,
+      "color": "#9594EC"
+    },
+    {
+      "id": 10,
+      "color": "#BABCF2"
+    },
+    {
+      "id": 11,
+      "color": "#DEC09D"
+    },
+    {
+      "id": 12,
+      "color": "#EAEFF5"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 3360
+  }
+}

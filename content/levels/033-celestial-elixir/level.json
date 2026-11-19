@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "celestial-elixir",
+  "order": 33,
+  "title": {
+    "ru": "Небесный эликсир",
+    "en": "Celestial Elixir"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "небесный эликсир"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "celestial elixir"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#101C5E"
+    },
+    {
+      "id": 2,
+      "color": "#102EA9"
+    },
+    {
+      "id": 3,
+      "color": "#563120"
+    },
+    {
+      "id": 4,
+      "color": "#7F37EE"
+    },
+    {
+      "id": 5,
+      "color": "#4768A5"
+    },
+    {
+      "id": 6,
+      "color": "#1D75E6"
+    },
+    {
+      "id": 7,
+      "color": "#B57036"
+    },
+    {
+      "id": 8,
+      "color": "#7EA5E3"
+    },
+    {
+      "id": 9,
+      "color": "#E8D4E1"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 953
+  }
+}

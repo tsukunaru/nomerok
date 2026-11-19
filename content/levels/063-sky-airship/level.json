@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "sky-airship",
+  "order": 63,
+  "title": {
+    "ru": "Небесный дирижабль",
+    "en": "Sky Airship"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "небесный дирижабль"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "sky airship"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#381F22"
+    },
+    {
+      "id": 2,
+      "color": "#0F2F74"
+    },
+    {
+      "id": 3,
+      "color": "#72381E"
+    },
+    {
+      "id": 4,
+      "color": "#644C56"
+    },
+    {
+      "id": 5,
+      "color": "#426296"
+    },
+    {
+      "id": 6,
+      "color": "#B5692B"
+    },
+    {
+      "id": 7,
+      "color": "#9F7675"
+    },
+    {
+      "id": 8,
+      "color": "#D7AA8E"
+    },
+    {
+      "id": 9,
+      "color": "#FAE1BF"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2183
+  }
+}

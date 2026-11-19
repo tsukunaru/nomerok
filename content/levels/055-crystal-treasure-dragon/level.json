@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-treasure-dragon",
+  "order": 55,
+  "title": {
+    "ru": "Кристальный дракон с сокровищами",
+    "en": "Crystal Treasure Dragon"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальный дракон сокровищ"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal treasure dragon"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#5E131F"
+    },
+    {
+      "id": 2,
+      "color": "#AB2B22"
+    },
+    {
+      "id": 3,
+      "color": "#2058E0"
+    },
+    {
+      "id": 4,
+      "color": "#5F6920"
+    },
+    {
+      "id": 5,
+      "color": "#9F5D5E"
+    },
+    {
+      "id": 6,
+      "color": "#E65933"
+    },
+    {
+      "id": 7,
+      "color": "#6E6FDE"
+    },
+    {
+      "id": 8,
+      "color": "#C5A9EE"
+    },
+    {
+      "id": 9,
+      "color": "#F3AC55"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2245
+  }
+}

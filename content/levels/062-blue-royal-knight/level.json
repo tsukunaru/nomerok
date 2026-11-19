@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "blue-royal-knight",
+  "order": 62,
+  "title": {
+    "ru": "Синий королевский рыцарь",
+    "en": "Blue Royal Knight"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "синий королевский рыцарь"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "blue royal knight"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2E1421"
+    },
+    {
+      "id": 2,
+      "color": "#112876"
+    },
+    {
+      "id": 3,
+      "color": "#703024"
+    },
+    {
+      "id": 4,
+      "color": "#575769"
+    },
+    {
+      "id": 5,
+      "color": "#356AC2"
+    },
+    {
+      "id": 6,
+      "color": "#B65F29"
+    },
+    {
+      "id": 7,
+      "color": "#8D8180"
+    },
+    {
+      "id": 8,
+      "color": "#E4AD4A"
+    },
+    {
+      "id": 9,
+      "color": "#CDD1D7"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2203
+  }
+}

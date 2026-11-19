@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "floating-windmill",
+  "order": 86,
+  "title": {
+    "ru": "Парящая мельница",
+    "en": "Floating Windmill"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "парящая мельница"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "floating windmill"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#252D18"
+    },
+    {
+      "id": 2,
+      "color": "#53371F"
+    },
+    {
+      "id": 3,
+      "color": "#874A18"
+    },
+    {
+      "id": 4,
+      "color": "#4E5C0E"
+    },
+    {
+      "id": 5,
+      "color": "#7A6348"
+    },
+    {
+      "id": 6,
+      "color": "#838010"
+    },
+    {
+      "id": 7,
+      "color": "#C47417"
+    },
+    {
+      "id": 8,
+      "color": "#A272C0"
+    },
+    {
+      "id": 9,
+      "color": "#B48657"
+    },
+    {
+      "id": 10,
+      "color": "#DDAD79"
+    },
+    {
+      "id": 11,
+      "color": "#F2B22A"
+    },
+    {
+      "id": 12,
+      "color": "#F9D7A6"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 2315
+  }
+}

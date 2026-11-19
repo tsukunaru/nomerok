@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "galaxy-potion",
+  "order": 15,
+  "title": {
+    "ru": "Галактическое зелье",
+    "en": "Galaxy Potion"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "галактическое зелье"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "galaxy potion"
+    ]
+  },
+  "difficulty": 2,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#113494"
+    },
+    {
+      "id": 2,
+      "color": "#152EE0"
+    },
+    {
+      "id": 3,
+      "color": "#6A382D"
+    },
+    {
+      "id": 4,
+      "color": "#875CF3"
+    },
+    {
+      "id": 5,
+      "color": "#B86E38"
+    },
+    {
+      "id": 6,
+      "color": "#2C90E1"
+    },
+    {
+      "id": 7,
+      "color": "#BFC3F5"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 30,
+    "rows": 30,
+    "regionCount": 386
+  }
+}

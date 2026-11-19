@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "owl-wizard",
+  "order": 67,
+  "title": {
+    "ru": "Сова-волшебник",
+    "en": "Owl Wizard"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "сова-волшебник"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "owl wizard"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#141035"
+    },
+    {
+      "id": 2,
+      "color": "#20306B"
+    },
+    {
+      "id": 3,
+      "color": "#572C2A"
+    },
+    {
+      "id": 4,
+      "color": "#606080"
+    },
+    {
+      "id": 5,
+      "color": "#96593A"
+    },
+    {
+      "id": 6,
+      "color": "#556DC0"
+    },
+    {
+      "id": 7,
+      "color": "#B09694"
+    },
+    {
+      "id": 8,
+      "color": "#DA9539"
+    },
+    {
+      "id": 9,
+      "color": "#F0DFD9"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2166
+  }
+}

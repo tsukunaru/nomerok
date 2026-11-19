@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "id": "example-kite",
+  "order": 999,
+  "title": {
+    "ru": "Воздушный змей",
+    "en": "Colorful Kite"
+  },
+  "category": "cute-objects",
+  "tags": {
+    "ru": ["воздушный змей", "игрушка", "небо"],
+    "en": ["kite", "toy", "sky"]
+  },
+  "difficulty": 1,
+  "palette": [
+    { "id": 1, "color": "#FF7F9F" },
+    { "id": 2, "color": "#FFD45C" },
+    { "id": 3, "color": "#65C98A" }
+  ]
+}

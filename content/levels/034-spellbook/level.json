@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "spellbook",
+  "order": 34,
+  "title": {
+    "ru": "Магический гримуар",
+    "en": "Magic Grimoire"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "магический гримуар"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "magic grimoire"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#302267"
+    },
+    {
+      "id": 2,
+      "color": "#773E32"
+    },
+    {
+      "id": 3,
+      "color": "#3F6DEB"
+    },
+    {
+      "id": 4,
+      "color": "#B4785D"
+    },
+    {
+      "id": 5,
+      "color": "#A470EC"
+    },
+    {
+      "id": 6,
+      "color": "#539AF8"
+    },
+    {
+      "id": 7,
+      "color": "#7EBEFC"
+    },
+    {
+      "id": 8,
+      "color": "#F1C797"
+    },
+    {
+      "id": 9,
+      "color": "#E4D9E7"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 976
+  }
+}

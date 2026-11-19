@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "baby-griffin",
+  "order": 42,
+  "title": {
+    "ru": "Малыш грифон",
+    "en": "Baby Griffin"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "малыш грифон"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "baby griffin"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#522022"
+    },
+    {
+      "id": 2,
+      "color": "#43497F"
+    },
+    {
+      "id": 3,
+      "color": "#8B412A"
+    },
+    {
+      "id": 4,
+      "color": "#0A7BB8"
+    },
+    {
+      "id": 5,
+      "color": "#BE6B32"
+    },
+    {
+      "id": 6,
+      "color": "#B28B88"
+    },
+    {
+      "id": 7,
+      "color": "#56C1D6"
+    },
+    {
+      "id": 8,
+      "color": "#EEAB4F"
+    },
+    {
+      "id": 9,
+      "color": "#EFD2B8"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 1118
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 4,
+  "id": "stellar-planetary-mobile",
+  "order": 76,
+  "title": {
+    "ru": "Звёздный планетарный мобиль",
+    "en": "Stellar Planetary Mobile"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "звёздный планетарный мобиль"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "stellar planetary mobile"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#171844"
+    },
+    {
+      "id": 2,
+      "color": "#193291"
+    },
+    {
+      "id": 3,
+      "color": "#483121"
+    },
+    {
+      "id": 4,
+      "color": "#504A76"
+    },
+    {
+      "id": 5,
+      "color": "#744DCE"
+    },
+    {
+      "id": 6,
+      "color": "#825F37"
+    },
+    {
+      "id": 7,
+      "color": "#3B65D4"
+    },
+    {
+      "id": 8,
+      "color": "#19A1E0"
+    },
+    {
+      "id": 9,
+      "color": "#BB955D"
+    },
+    {
+      "id": 10,
+      "color": "#7EACF4"
+    },
+    {
+      "id": 11,
+      "color": "#C29BF6"
+    },
+    {
+      "id": 12,
+      "color": "#DDD2C0"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "cosmic-elixir",
+  "order": 53,
+  "title": {
+    "ru": "Космический эликсир",
+    "en": "Cosmic Elixir"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "космический эликсир"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "cosmic elixir"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2D1F52"
+    },
+    {
+      "id": 2,
+      "color": "#1A21B2"
+    },
+    {
+      "id": 3,
+      "color": "#9923EE"
+    },
+    {
+      "id": 4,
+      "color": "#955330"
+    },
+    {
+      "id": 5,
+      "color": "#3564E5"
+    },
+    {
+      "id": 6,
+      "color": "#7F699A"
+    },
+    {
+      "id": 7,
+      "color": "#CC89EB"
+    },
+    {
+      "id": 8,
+      "color": "#E0A052"
+    },
+    {
+      "id": 9,
+      "color": "#F0E1D8"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 1576
+  }
+}

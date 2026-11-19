@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "moonlight-unicorn",
+  "order": 54,
+  "title": {
+    "ru": "Единорог лунного света",
+    "en": "Moonlight Unicorn"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "единорог лунного света"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "moonlight unicorn"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#32413A"
+    },
+    {
+      "id": 2,
+      "color": "#716283"
+    },
+    {
+      "id": 3,
+      "color": "#6F7530"
+    },
+    {
+      "id": 4,
+      "color": "#7A78F2"
+    },
+    {
+      "id": 5,
+      "color": "#9A81BA"
+    },
+    {
+      "id": 6,
+      "color": "#C7956D"
+    },
+    {
+      "id": 7,
+      "color": "#D08DF6"
+    },
+    {
+      "id": 8,
+      "color": "#C9B9E1"
+    },
+    {
+      "id": 9,
+      "color": "#F7E0E5"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 1965
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "coral-seahorse",
+  "order": 108,
+  "title": {
+    "ru": "Коралловый морской конёк",
+    "en": "Coral Seahorse"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "коралловый морской конёк"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "coral seahorse"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#251338"
+    },
+    {
+      "id": 2,
+      "color": "#C13949"
+    },
+    {
+      "id": 3,
+      "color": "#955370"
+    },
+    {
+      "id": 4,
+      "color": "#2B6F9C"
+    },
+    {
+      "id": 5,
+      "color": "#E45C56"
+    },
+    {
+      "id": 6,
+      "color": "#C8777D"
+    },
+    {
+      "id": 7,
+      "color": "#9890A3"
+    },
+    {
+      "id": 8,
+      "color": "#3AA9C9"
+    },
+    {
+      "id": 9,
+      "color": "#F38C70"
+    },
+    {
+      "id": 10,
+      "color": "#EFB59A"
+    },
+    {
+      "id": 11,
+      "color": "#82D8E0"
+    },
+    {
+      "id": 12,
+      "color": "#F2E7D3"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 2826
+  }
+}

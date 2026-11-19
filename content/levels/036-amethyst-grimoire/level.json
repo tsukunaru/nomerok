@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "amethyst-grimoire",
+  "order": 36,
+  "title": {
+    "ru": "Аметистовый гримуар",
+    "en": "Amethyst Grimoire"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "аметистовый гримуар"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "amethyst grimoire"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#4B1932"
+    },
+    {
+      "id": 2,
+      "color": "#283271"
+    },
+    {
+      "id": 3,
+      "color": "#74331B"
+    },
+    {
+      "id": 4,
+      "color": "#7E3851"
+    },
+    {
+      "id": 5,
+      "color": "#952BAE"
+    },
+    {
+      "id": 6,
+      "color": "#AD6536"
+    },
+    {
+      "id": 7,
+      "color": "#C055E7"
+    },
+    {
+      "id": 8,
+      "color": "#D7995F"
+    },
+    {
+      "id": 9,
+      "color": "#ECA4F9"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 1012
+  }
+}

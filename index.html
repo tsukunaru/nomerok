@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4f1fb" />
+    <meta name="description" content="Номерок — уютная пиксельная раскраска по номерам" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%237967ff'/%3E%3Ccircle cx='23' cy='23' r='11' fill='%23ff8fab'/%3E%3Ccircle cx='42' cy='23' r='9' fill='%23ffd166'/%3E%3Ccircle cx='32' cy='42' r='10' fill='%236bcb77'/%3E%3C/svg%3E" />
+    <title>Номерок</title>
+    <style>
+      html,body,#root{width:100%;height:100%;margin:0;overflow:hidden;overscroll-behavior:none;background:#f4f1fb}body{font-family:system-ui,sans-serif}.boot-loader{height:100%;display:grid;place-content:center;grid-auto-flow:column;gap:8px}.boot-loader span{width:14px;height:14px;border-radius:50%;background:#7967ff;animation:boot .8s infinite alternate}.boot-loader span:nth-child(2){background:#ff8fab;animation-delay:.15s}.boot-loader span:nth-child(3){background:#ffd166;animation-delay:.3s}@keyframes boot{to{transform:translateY(-10px)}}
+    </style>
+    <!-- vite-ignore -->
+    <script src="/sdk.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="boot-loader" aria-label="Загрузка">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

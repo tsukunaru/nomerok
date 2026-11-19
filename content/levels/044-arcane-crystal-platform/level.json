@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "arcane-crystal-platform",
+  "order": 44,
+  "title": {
+    "ru": "Арканная кристальная площадка",
+    "en": "Arcane Crystal Platform"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальная площадка"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "arcane crystal platform"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#1B1B27"
+    },
+    {
+      "id": 2,
+      "color": "#321A61"
+    },
+    {
+      "id": 3,
+      "color": "#5C19A4"
+    },
+    {
+      "id": 4,
+      "color": "#424712"
+    },
+    {
+      "id": 5,
+      "color": "#A323F4"
+    },
+    {
+      "id": 6,
+      "color": "#674C62"
+    },
+    {
+      "id": 7,
+      "color": "#8C4DBE"
+    },
+    {
+      "id": 8,
+      "color": "#C49275"
+    },
+    {
+      "id": 9,
+      "color": "#DC85F3"
+    }
+  ]
+}

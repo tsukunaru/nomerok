@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 4,
+  "id": "sun-clockwork-guardian",
+  "order": 99,
+  "title": {
+    "ru": "Солнечный механический страж",
+    "en": "Solar Clockwork Guardian"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "солнечный механический страж"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "solar clockwork guardian"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#312612"
+    },
+    {
+      "id": 2,
+      "color": "#4C4020"
+    },
+    {
+      "id": 3,
+      "color": "#6D511F"
+    },
+    {
+      "id": 4,
+      "color": "#6C5C40"
+    },
+    {
+      "id": 5,
+      "color": "#906929"
+    },
+    {
+      "id": 6,
+      "color": "#987F4F"
+    },
+    {
+      "id": 7,
+      "color": "#B5832E"
+    },
+    {
+      "id": 8,
+      "color": "#D2A644"
+    },
+    {
+      "id": 9,
+      "color": "#EBA51E"
+    },
+    {
+      "id": 10,
+      "color": "#D2B16E"
+    },
+    {
+      "id": 11,
+      "color": "#F5D24A"
+    },
+    {
+      "id": 12,
+      "color": "#FAE975"
+    }
+  ]
+}

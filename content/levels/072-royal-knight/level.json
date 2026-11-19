@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "royal-knight",
+  "order": 72,
+  "title": {
+    "ru": "Королевский рыцарь",
+    "en": "Royal Knight"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "королевский рыцарь"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "royal knight"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2E2422"
+    },
+    {
+      "id": 2,
+      "color": "#122965"
+    },
+    {
+      "id": 3,
+      "color": "#1F479C"
+    },
+    {
+      "id": 4,
+      "color": "#624538"
+    },
+    {
+      "id": 5,
+      "color": "#A3622E"
+    },
+    {
+      "id": 6,
+      "color": "#407DD5"
+    },
+    {
+      "id": 7,
+      "color": "#897474"
+    },
+    {
+      "id": 8,
+      "color": "#E19C4B"
+    },
+    {
+      "id": 9,
+      "color": "#D8B89C"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2204
+  }
+}

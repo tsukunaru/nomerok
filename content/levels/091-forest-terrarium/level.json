@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "forest-terrarium",
+  "order": 91,
+  "title": {
+    "ru": "Лесной мир в бутылке",
+    "en": "Forest Terrarium"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "лесной мир в бутылке"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "forest terrarium"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#323310"
+    },
+    {
+      "id": 2,
+      "color": "#774017"
+    },
+    {
+      "id": 3,
+      "color": "#455747"
+    },
+    {
+      "id": 4,
+      "color": "#686E0E"
+    },
+    {
+      "id": 5,
+      "color": "#BD5A20"
+    },
+    {
+      "id": 6,
+      "color": "#5C737A"
+    },
+    {
+      "id": 7,
+      "color": "#958328"
+    },
+    {
+      "id": 8,
+      "color": "#7795B9"
+    },
+    {
+      "id": 9,
+      "color": "#DA9531"
+    },
+    {
+      "id": 10,
+      "color": "#B09D6B"
+    },
+    {
+      "id": 11,
+      "color": "#F5BC59"
+    },
+    {
+      "id": 12,
+      "color": "#EFE3B6"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 2634
+  }
+}

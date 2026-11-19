@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 2,
+  "id": "icecream",
+  "order": 8,
+  "title": {
+    "ru": "Сладкое мороженое",
+    "en": "Sweet Ice Cream"
+  },
+  "category": "food",
+  "tags": {
+    "ru": [
+      "мороженое",
+      "десерт",
+      "сладкое"
+    ],
+    "en": [
+      "ice cream",
+      "dessert",
+      "sweet"
+    ]
+  },
+  "difficulty": 1,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#E9AE68"
+    },
+    {
+      "id": 2,
+      "color": "#F07F9F"
+    },
+    {
+      "id": 3,
+      "color": "#8ED8C4"
+    },
+    {
+      "id": 4,
+      "color": "#FFF1C7"
+    },
+    {
+      "id": 5,
+      "color": "#9B6CC5"
+    },
+    {
+      "id": 6,
+      "color": "#E85462"
+    },
+    {
+      "id": 7,
+      "color": "#79594D"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 1,
+    "columns": 20,
+    "rows": 20,
+    "regionCount": 134
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://numbi.game/schemas/level-v1.json",
+  "title": "Numbi level metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "contentVersion", "id", "order", "title", "category", "tags", "difficulty", "palette"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "contentVersion": { "type": "integer", "minimum": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "order": { "type": "integer", "minimum": 1 },
+    "title": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ru", "en"],
+      "properties": {
+        "ru": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "en": { "type": "string", "minLength": 1, "maxLength": 80 }
+      }
+    },
+    "category": {
+      "enum": ["animals", "nature", "food", "houses-cities", "space", "transport", "underwater", "fantasy", "landscapes", "cute-objects"]
+    },
+    "tags": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ru", "en"],
+      "properties": {
+        "ru": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1, "maxLength": 40 } },
+        "en": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1, "maxLength": 40 } }
+      }
+    },
+    "difficulty": { "type": "integer", "enum": [1, 2, 3, 4, 5] },
+    "previousContent": {
+      "type": "object", "additionalProperties": false,
+      "required": ["contentVersion", "columns", "rows", "regionCount"],
+      "properties": {
+        "contentVersion": { "type": "integer", "minimum": 1 },
+        "columns": { "type": "integer", "minimum": 8, "maximum": 90 },
+        "rows": { "type": "integer", "minimum": 8, "maximum": 90 },
+        "regionCount": { "type": "integer", "minimum": 1, "maximum": 8100 }
+      }
+    },
+    "palette": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "color"],
+        "properties": {
+          "id": { "type": "integer", "minimum": 1, "maximum": 99 },
+          "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" }
+        }
+      }
+    }
+  }
+}

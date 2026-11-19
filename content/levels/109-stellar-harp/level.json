@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 4,
+  "id": "stellar-harp",
+  "order": 109,
+  "title": {
+    "ru": "Звёздная арфа",
+    "en": "Stellar Harp"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "звёздная арфа"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "stellar harp"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#140F26"
+    },
+    {
+      "id": 2,
+      "color": "#231D54"
+    },
+    {
+      "id": 3,
+      "color": "#4A3126"
+    },
+    {
+      "id": 4,
+      "color": "#393299"
+    },
+    {
+      "id": 5,
+      "color": "#513F51"
+    },
+    {
+      "id": 6,
+      "color": "#765235"
+    },
+    {
+      "id": 7,
+      "color": "#6962CF"
+    },
+    {
+      "id": 8,
+      "color": "#886856"
+    },
+    {
+      "id": 9,
+      "color": "#AE8763"
+    },
+    {
+      "id": 10,
+      "color": "#B1A9F7"
+    },
+    {
+      "id": 11,
+      "color": "#D9B286"
+    },
+    {
+      "id": 12,
+      "color": "#F0DACF"
+    }
+  ]
+}

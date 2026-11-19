@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-garden-fountain",
+  "order": 59,
+  "title": {
+    "ru": "Кристальный садовый фонтан",
+    "en": "Crystal Garden Fountain"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальный фонтан"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal fountain"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#272C37"
+    },
+    {
+      "id": 2,
+      "color": "#4B4861"
+    },
+    {
+      "id": 3,
+      "color": "#57632B"
+    },
+    {
+      "id": 4,
+      "color": "#836E74"
+    },
+    {
+      "id": 5,
+      "color": "#3E82CE"
+    },
+    {
+      "id": 6,
+      "color": "#9CA219"
+    },
+    {
+      "id": 7,
+      "color": "#B99689"
+    },
+    {
+      "id": 8,
+      "color": "#7BC0F0"
+    },
+    {
+      "id": 9,
+      "color": "#DEBDA4"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2008
+  }
+}

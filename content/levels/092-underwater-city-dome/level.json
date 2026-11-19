@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "underwater-city-dome",
+  "order": 92,
+  "title": {
+    "ru": "Подводный город под куполом",
+    "en": "Underwater City Dome"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "подводный город под куполом"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "underwater city dome"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#113555"
+    },
+    {
+      "id": 2,
+      "color": "#0C5083"
+    },
+    {
+      "id": 3,
+      "color": "#574253"
+    },
+    {
+      "id": 4,
+      "color": "#0B71BE"
+    },
+    {
+      "id": 5,
+      "color": "#9649B9"
+    },
+    {
+      "id": 6,
+      "color": "#4B6681"
+    },
+    {
+      "id": 7,
+      "color": "#C45243"
+    },
+    {
+      "id": 8,
+      "color": "#858376"
+    },
+    {
+      "id": 9,
+      "color": "#2199DF"
+    },
+    {
+      "id": 10,
+      "color": "#59BDEE"
+    },
+    {
+      "id": 11,
+      "color": "#CBB18E"
+    },
+    {
+      "id": 12,
+      "color": "#A7E8F8"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 3146
+  }
+}

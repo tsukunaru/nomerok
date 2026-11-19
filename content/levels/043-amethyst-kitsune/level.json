@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "amethyst-kitsune",
+  "order": 43,
+  "title": {
+    "ru": "Аметистовая кицунэ",
+    "en": "Amethyst Kitsune"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "аметистовая кицунэ"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "amethyst kitsune"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#271735"
+    },
+    {
+      "id": 2,
+      "color": "#59395F"
+    },
+    {
+      "id": 3,
+      "color": "#673E9D"
+    },
+    {
+      "id": 4,
+      "color": "#8D4DD7"
+    },
+    {
+      "id": 5,
+      "color": "#9B6BA1"
+    },
+    {
+      "id": 6,
+      "color": "#7F76F2"
+    },
+    {
+      "id": 7,
+      "color": "#B57EDB"
+    },
+    {
+      "id": 8,
+      "color": "#CEA7CF"
+    },
+    {
+      "id": 9,
+      "color": "#F7DEDF"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 1164
+  }
+}

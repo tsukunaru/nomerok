@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-golem-butterfly",
+  "order": 47,
+  "title": {
+    "ru": "Кристальный голем с бабочкой",
+    "en": "Crystal Golem with Butterfly"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальный голем с бабочкой"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal golem with butterfly"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#27283C"
+    },
+    {
+      "id": 2,
+      "color": "#345510"
+    },
+    {
+      "id": 3,
+      "color": "#5D4F5F"
+    },
+    {
+      "id": 4,
+      "color": "#216BD5"
+    },
+    {
+      "id": 5,
+      "color": "#6D8318"
+    },
+    {
+      "id": 6,
+      "color": "#9C8279"
+    },
+    {
+      "id": 7,
+      "color": "#61B3ED"
+    },
+    {
+      "id": 8,
+      "color": "#D9B59A"
+    },
+    {
+      "id": 9,
+      "color": "#B0F0FD"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 1180
+  }
+}

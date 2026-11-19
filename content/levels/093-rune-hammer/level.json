@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "rune-hammer",
+  "order": 93,
+  "title": {
+    "ru": "Рунный молот",
+    "en": "Rune Hammer"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "рунный молот"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "rune hammer"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#1F252A"
+    },
+    {
+      "id": 2,
+      "color": "#2F3F57"
+    },
+    {
+      "id": 3,
+      "color": "#663A20"
+    },
+    {
+      "id": 4,
+      "color": "#456211"
+    },
+    {
+      "id": 5,
+      "color": "#2561A7"
+    },
+    {
+      "id": 6,
+      "color": "#555B67"
+    },
+    {
+      "id": 7,
+      "color": "#6F8299"
+    },
+    {
+      "id": 8,
+      "color": "#2492ED"
+    },
+    {
+      "id": 9,
+      "color": "#AF8025"
+    },
+    {
+      "id": 10,
+      "color": "#BCA48E"
+    },
+    {
+      "id": 11,
+      "color": "#49BEF6"
+    },
+    {
+      "id": 12,
+      "color": "#9CE4F8"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 3150
+  }
+}

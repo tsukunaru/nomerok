@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "aurora-wolf",
+  "order": 112,
+  "title": {
+    "ru": "Волк северного сияния",
+    "en": "Aurora Wolf"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "волк авроры"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "aurora wolf"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#202574"
+    },
+    {
+      "id": 2,
+      "color": "#2C40A4"
+    },
+    {
+      "id": 3,
+      "color": "#4D4C8C"
+    },
+    {
+      "id": 4,
+      "color": "#5856C5"
+    },
+    {
+      "id": 5,
+      "color": "#3478CA"
+    },
+    {
+      "id": 6,
+      "color": "#767CC7"
+    },
+    {
+      "id": 7,
+      "color": "#9A7A76"
+    },
+    {
+      "id": 8,
+      "color": "#9E9CD2"
+    },
+    {
+      "id": 9,
+      "color": "#3BC1E2"
+    },
+    {
+      "id": 10,
+      "color": "#C8C3D5"
+    },
+    {
+      "id": 11,
+      "color": "#78E7EE"
+    },
+    {
+      "id": 12,
+      "color": "#E9ECEE"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 3970
+  }
+}

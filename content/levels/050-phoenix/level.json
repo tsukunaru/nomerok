@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "phoenix",
+  "order": 50,
+  "title": {
+    "ru": "Огненный феникс",
+    "en": "Fire Phoenix"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "огненный феникс"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "fire phoenix"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#8A081C"
+    },
+    {
+      "id": 2,
+      "color": "#C41015"
+    },
+    {
+      "id": 3,
+      "color": "#BC3910"
+    },
+    {
+      "id": 4,
+      "color": "#E93A11"
+    },
+    {
+      "id": 5,
+      "color": "#C96924"
+    },
+    {
+      "id": 6,
+      "color": "#F56D10"
+    },
+    {
+      "id": 7,
+      "color": "#F59424"
+    },
+    {
+      "id": 8,
+      "color": "#F6BA43"
+    },
+    {
+      "id": 9,
+      "color": "#FCE36E"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 1147
+  }
+}

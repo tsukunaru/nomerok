@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "lunar-koi",
+  "order": 114,
+  "title": {
+    "ru": "Лунный карп кои",
+    "en": "Lunar Koi"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "лунный карп кои"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "lunar koi"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#161C77"
+    },
+    {
+      "id": 2,
+      "color": "#1F31AE"
+    },
+    {
+      "id": 3,
+      "color": "#504787"
+    },
+    {
+      "id": 4,
+      "color": "#4B53B9"
+    },
+    {
+      "id": 5,
+      "color": "#385ADD"
+    },
+    {
+      "id": 6,
+      "color": "#5183EF"
+    },
+    {
+      "id": 7,
+      "color": "#9D7B9B"
+    },
+    {
+      "id": 8,
+      "color": "#8182E5"
+    },
+    {
+      "id": 9,
+      "color": "#7EB6FA"
+    },
+    {
+      "id": 10,
+      "color": "#CDACBA"
+    },
+    {
+      "id": 11,
+      "color": "#B5BAF5"
+    },
+    {
+      "id": 12,
+      "color": "#E9E4F4"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 3479
+  }
+}

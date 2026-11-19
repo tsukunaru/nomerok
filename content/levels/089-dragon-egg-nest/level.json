@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "dragon-egg-nest",
+  "order": 89,
+  "title": {
+    "ru": "Гнездо драконьего яйца",
+    "en": "Dragon Egg Nest"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "гнездо драконьего яйца"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "dragon egg nest"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#1A2C28"
+    },
+    {
+      "id": 2,
+      "color": "#3B443D"
+    },
+    {
+      "id": 3,
+      "color": "#1E517F"
+    },
+    {
+      "id": 4,
+      "color": "#506012"
+    },
+    {
+      "id": 5,
+      "color": "#6E6667"
+    },
+    {
+      "id": 6,
+      "color": "#277BC1"
+    },
+    {
+      "id": 7,
+      "color": "#918B18"
+    },
+    {
+      "id": 8,
+      "color": "#5496CB"
+    },
+    {
+      "id": 9,
+      "color": "#9D96A0"
+    },
+    {
+      "id": 10,
+      "color": "#81C4EE"
+    },
+    {
+      "id": 11,
+      "color": "#CBC6CA"
+    },
+    {
+      "id": 12,
+      "color": "#F4E9DB"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 2477
+  }
+}

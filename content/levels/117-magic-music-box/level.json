@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "magic-music-box",
+  "order": 117,
+  "title": {
+    "ru": "Волшебная музыкальная шкатулка",
+    "en": "Magic Music Box"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "волшебная музыкальная шкатулка"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "magic music box"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#0D1450"
+    },
+    {
+      "id": 2,
+      "color": "#2D257C"
+    },
+    {
+      "id": 3,
+      "color": "#6F392A"
+    },
+    {
+      "id": 4,
+      "color": "#654380"
+    },
+    {
+      "id": 5,
+      "color": "#414EB2"
+    },
+    {
+      "id": 6,
+      "color": "#B36D33"
+    },
+    {
+      "id": 7,
+      "color": "#9D7365"
+    },
+    {
+      "id": 8,
+      "color": "#AB79AB"
+    },
+    {
+      "id": 9,
+      "color": "#6A8AE2"
+    },
+    {
+      "id": 10,
+      "color": "#DFAC6C"
+    },
+    {
+      "id": 11,
+      "color": "#A8BDF2"
+    },
+    {
+      "id": 12,
+      "color": "#EDD9D3"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 4149
+  }
+}

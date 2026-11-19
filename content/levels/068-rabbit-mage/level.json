@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "rabbit-mage",
+  "order": 68,
+  "title": {
+    "ru": "Кролик-маг",
+    "en": "Rabbit Mage"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кролик-маг"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "rabbit mage"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#0F2764"
+    },
+    {
+      "id": 2,
+      "color": "#402429"
+    },
+    {
+      "id": 3,
+      "color": "#1752AB"
+    },
+    {
+      "id": 4,
+      "color": "#63536C"
+    },
+    {
+      "id": 5,
+      "color": "#9E562C"
+    },
+    {
+      "id": 6,
+      "color": "#B290A3"
+    },
+    {
+      "id": 7,
+      "color": "#DC8E56"
+    },
+    {
+      "id": 8,
+      "color": "#3EBEEF"
+    },
+    {
+      "id": 9,
+      "color": "#F5DED4"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2368
+  }
+}

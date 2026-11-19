@@ -1,0 +1,41 @@
+{
+  "name": "nomerok",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "npm run build:levels",
+    "dev": "vite",
+    "import:images": "node scripts/import-images.mjs",
+    "validate:levels": "node scripts/levels.mjs validate",
+    "build:levels": "node scripts/levels.mjs build",
+    "qa:levels": "node scripts/qa-levels.mjs",
+    "qa:complexity": "node scripts/level-complexity.mjs",
+    "check:desktop-frame": "node scripts/check-desktop-frame.mjs",
+    "prepare:promo": "node scripts/normalize-promo.mjs",
+    "catalog:fixture": "node scripts/levels.mjs fixture",
+    "prebuild": "npm run build:levels",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test tests/game.test.ts",
+    "check": "npm run test && npm run build",
+    "check:yandex-size": "node scripts/check-yandex-size.mjs",
+    "audit:yandex": "node scripts/audit-yandex.mjs",
+    "build:yandex": "npm run build && npm run check:yandex-size && node scripts/package-yandex.mjs && npm run audit:yandex"
+  },
+  "dependencies": {
+    "css-vars-ponyfill": "^2.4.9",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-legacy": "^8.2.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "fflate": "^0.8.3",
+    "sharp": "^0.35.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2"
+  }
+}

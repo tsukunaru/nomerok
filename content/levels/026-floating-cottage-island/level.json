@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "floating-cottage-island",
+  "order": 26,
+  "title": {
+    "ru": "Домик на парящем острове",
+    "en": "Floating Cottage Island"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "парящий домик-остров"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "floating cottage island"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#243742"
+    },
+    {
+      "id": 2,
+      "color": "#504B38"
+    },
+    {
+      "id": 3,
+      "color": "#395A95"
+    },
+    {
+      "id": 4,
+      "color": "#876252"
+    },
+    {
+      "id": 5,
+      "color": "#B36A33"
+    },
+    {
+      "id": 6,
+      "color": "#6B8624"
+    },
+    {
+      "id": 7,
+      "color": "#D69D68"
+    },
+    {
+      "id": 8,
+      "color": "#86AEE6"
+    },
+    {
+      "id": 9,
+      "color": "#DAD9E3"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 764
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "pearl-axolotl",
+  "order": 79,
+  "title": {
+    "ru": "Жемчужный аксолотль",
+    "en": "Pearl Axolotl"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "жемчужный аксолотль"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "pearl axolotl"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#14203C"
+    },
+    {
+      "id": 2,
+      "color": "#4B385B"
+    },
+    {
+      "id": 3,
+      "color": "#0E618D"
+    },
+    {
+      "id": 4,
+      "color": "#92407E"
+    },
+    {
+      "id": 5,
+      "color": "#646689"
+    },
+    {
+      "id": 6,
+      "color": "#DC489B"
+    },
+    {
+      "id": 7,
+      "color": "#1B8EB9"
+    },
+    {
+      "id": 8,
+      "color": "#6E8A15"
+    },
+    {
+      "id": 9,
+      "color": "#B07695"
+    },
+    {
+      "id": 10,
+      "color": "#EC96B5"
+    },
+    {
+      "id": 11,
+      "color": "#5FBCE7"
+    },
+    {
+      "id": 12,
+      "color": "#F9DBD9"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 2345
+  }
+}

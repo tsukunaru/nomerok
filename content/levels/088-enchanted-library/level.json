@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "enchanted-library",
+  "order": 88,
+  "title": {
+    "ru": "Зачарованная библиотека",
+    "en": "Enchanted Library"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "зачарованная библиотека"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "enchanted library"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#031171"
+    },
+    {
+      "id": 2,
+      "color": "#2D1515"
+    },
+    {
+      "id": 3,
+      "color": "#522314"
+    },
+    {
+      "id": 4,
+      "color": "#0C2AA2"
+    },
+    {
+      "id": 5,
+      "color": "#48333C"
+    },
+    {
+      "id": 6,
+      "color": "#7D3B19"
+    },
+    {
+      "id": 7,
+      "color": "#AA561B"
+    },
+    {
+      "id": 8,
+      "color": "#8E5C45"
+    },
+    {
+      "id": 9,
+      "color": "#7085DB"
+    },
+    {
+      "id": 10,
+      "color": "#D08D4D"
+    },
+    {
+      "id": 11,
+      "color": "#EEC17A"
+    },
+    {
+      "id": 12,
+      "color": "#F8E6B7"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 3154
+  }
+}

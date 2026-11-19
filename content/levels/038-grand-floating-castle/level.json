@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "grand-floating-castle",
+  "order": 38,
+  "title": {
+    "ru": "Великий парящий замок",
+    "en": "Grand Floating Castle"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "великий парящий замок"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "grand floating castle"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#293559"
+    },
+    {
+      "id": 2,
+      "color": "#1259C3"
+    },
+    {
+      "id": 3,
+      "color": "#445B33"
+    },
+    {
+      "id": 4,
+      "color": "#915C3C"
+    },
+    {
+      "id": 5,
+      "color": "#676D89"
+    },
+    {
+      "id": 6,
+      "color": "#7DA023"
+    },
+    {
+      "id": 7,
+      "color": "#C49E7C"
+    },
+    {
+      "id": 8,
+      "color": "#8DA5EC"
+    },
+    {
+      "id": 9,
+      "color": "#DBDCF8"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 893
+  }
+}

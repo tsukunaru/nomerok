@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "star-bakery-cart",
+  "order": 48,
+  "title": {
+    "ru": "Звёздная пекарня на колёсах",
+    "en": "Star Bakery Cart"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "звёздная тележка пекарни"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "star bakery cart"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#3A1A3B"
+    },
+    {
+      "id": 2,
+      "color": "#75381B"
+    },
+    {
+      "id": 3,
+      "color": "#344F0F"
+    },
+    {
+      "id": 4,
+      "color": "#713BA2"
+    },
+    {
+      "id": 5,
+      "color": "#6E4561"
+    },
+    {
+      "id": 6,
+      "color": "#AE6D38"
+    },
+    {
+      "id": 7,
+      "color": "#B17A8F"
+    },
+    {
+      "id": 8,
+      "color": "#E5AF62"
+    },
+    {
+      "id": 9,
+      "color": "#F0C9B8"
+    }
+  ]
+}

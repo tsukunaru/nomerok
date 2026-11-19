@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "witch-caravan",
+  "order": 100,
+  "title": {
+    "ru": "Ведьмина повозка",
+    "en": "Witch Caravan"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "ведьмина повозка"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "witch caravan"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#22190D"
+    },
+    {
+      "id": 2,
+      "color": "#4E2812"
+    },
+    {
+      "id": 3,
+      "color": "#3D5223"
+    },
+    {
+      "id": 4,
+      "color": "#7A4118"
+    },
+    {
+      "id": 5,
+      "color": "#77555A"
+    },
+    {
+      "id": 6,
+      "color": "#A75E1E"
+    },
+    {
+      "id": 7,
+      "color": "#797D29"
+    },
+    {
+      "id": 8,
+      "color": "#B67A73"
+    },
+    {
+      "id": 9,
+      "color": "#CD8129"
+    },
+    {
+      "id": 10,
+      "color": "#C98EBF"
+    },
+    {
+      "id": 11,
+      "color": "#EAA835"
+    },
+    {
+      "id": 12,
+      "color": "#F9D165"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 3298
+  }
+}

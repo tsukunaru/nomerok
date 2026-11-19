@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crowned-treasure-chest",
+  "order": 71,
+  "title": {
+    "ru": "Сундук с короной",
+    "en": "Crowned Treasure Chest"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "сундук с короной"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crowned treasure chest"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2F191B"
+    },
+    {
+      "id": 2,
+      "color": "#8E380F"
+    },
+    {
+      "id": 3,
+      "color": "#4C4851"
+    },
+    {
+      "id": 4,
+      "color": "#209221"
+    },
+    {
+      "id": 5,
+      "color": "#2293B2"
+    },
+    {
+      "id": 6,
+      "color": "#D4791A"
+    },
+    {
+      "id": 7,
+      "color": "#C17964"
+    },
+    {
+      "id": 8,
+      "color": "#F7B940"
+    },
+    {
+      "id": 9,
+      "color": "#EDDBB7"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2650
+  }
+}

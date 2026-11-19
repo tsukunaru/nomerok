@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "progressiveGrid": true,
+  "grid": {
+    "columns": 20,
+    "rows": 20,
+    "colorCount": 7,
+    "padding": 1,
+    "removeWhiteBackground": true,
+    "whiteThreshold": 245,
+    "alphaThreshold": 72,
+    "mergeColorDistance": 28
+  }
+}

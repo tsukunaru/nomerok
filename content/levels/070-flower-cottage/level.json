@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "flower-cottage",
+  "order": 70,
+  "title": {
+    "ru": "Цветочный домик",
+    "en": "Flower Cottage"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "цветочный домик"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "flower cottage"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2D2C21"
+    },
+    {
+      "id": 2,
+      "color": "#233965"
+    },
+    {
+      "id": 3,
+      "color": "#653D2C"
+    },
+    {
+      "id": 4,
+      "color": "#556D16"
+    },
+    {
+      "id": 5,
+      "color": "#985B34"
+    },
+    {
+      "id": 6,
+      "color": "#4277B5"
+    },
+    {
+      "id": 7,
+      "color": "#B47E65"
+    },
+    {
+      "id": 8,
+      "color": "#C9901E"
+    },
+    {
+      "id": 9,
+      "color": "#E2B680"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2310
+  }
+}

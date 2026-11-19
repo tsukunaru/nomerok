@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 4,
+  "id": "sakura-garden-arch",
+  "order": 49,
+  "title": {
+    "ru": "Цветочная арка сакуры",
+    "en": "Sakura Garden Arch"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "цветочная арка сакуры"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "sakura garden arch"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#232225"
+    },
+    {
+      "id": 2,
+      "color": "#403234"
+    },
+    {
+      "id": 3,
+      "color": "#61413C"
+    },
+    {
+      "id": 4,
+      "color": "#564770"
+    },
+    {
+      "id": 5,
+      "color": "#864B5B"
+    },
+    {
+      "id": 6,
+      "color": "#A85B68"
+    },
+    {
+      "id": 7,
+      "color": "#B55C8C"
+    },
+    {
+      "id": 8,
+      "color": "#DA7390"
+    },
+    {
+      "id": 9,
+      "color": "#F293A7"
+    }
+  ]
+}

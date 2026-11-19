@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "celestial-astrolabe",
+  "order": 106,
+  "title": {
+    "ru": "Небесная астролябия",
+    "en": "Celestial Astrolabe"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "небесная астролябия"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "celestial astrolabe"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#292733"
+    },
+    {
+      "id": 2,
+      "color": "#323B62"
+    },
+    {
+      "id": 3,
+      "color": "#513C2F"
+    },
+    {
+      "id": 4,
+      "color": "#795435"
+    },
+    {
+      "id": 5,
+      "color": "#405E95"
+    },
+    {
+      "id": 6,
+      "color": "#A46C33"
+    },
+    {
+      "id": 7,
+      "color": "#A78870"
+    },
+    {
+      "id": 8,
+      "color": "#4D9AE9"
+    },
+    {
+      "id": 9,
+      "color": "#D28E3A"
+    },
+    {
+      "id": 10,
+      "color": "#F1BC5C"
+    },
+    {
+      "id": 11,
+      "color": "#A4D1EF"
+    },
+    {
+      "id": 12,
+      "color": "#FBEC90"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 2929
+  }
+}

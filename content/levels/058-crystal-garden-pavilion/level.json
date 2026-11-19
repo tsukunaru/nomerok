@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-garden-pavilion",
+  "order": 58,
+  "title": {
+    "ru": "Кристальный садовый павильон",
+    "en": "Crystal Garden Pavilion"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальный павильон"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal garden pavilion"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#1C343E"
+    },
+    {
+      "id": 2,
+      "color": "#224586"
+    },
+    {
+      "id": 3,
+      "color": "#505E3A"
+    },
+    {
+      "id": 4,
+      "color": "#6C6F7C"
+    },
+    {
+      "id": 5,
+      "color": "#3D7DDD"
+    },
+    {
+      "id": 6,
+      "color": "#BD9531"
+    },
+    {
+      "id": 7,
+      "color": "#B2A08C"
+    },
+    {
+      "id": 8,
+      "color": "#75B3F2"
+    },
+    {
+      "id": 9,
+      "color": "#BBDEFB"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2145
+  }
+}

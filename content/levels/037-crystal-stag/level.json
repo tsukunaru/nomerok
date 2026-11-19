@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-stag",
+  "order": 37,
+  "title": {
+    "ru": "Кристальный олень",
+    "en": "Crystal Stag"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальный олень"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal stag"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#1C3C2D"
+    },
+    {
+      "id": 2,
+      "color": "#405171"
+    },
+    {
+      "id": 3,
+      "color": "#426820"
+    },
+    {
+      "id": 4,
+      "color": "#2766CC"
+    },
+    {
+      "id": 5,
+      "color": "#8E80A1"
+    },
+    {
+      "id": 6,
+      "color": "#849C17"
+    },
+    {
+      "id": 7,
+      "color": "#5099F1"
+    },
+    {
+      "id": 8,
+      "color": "#A8ACE0"
+    },
+    {
+      "id": 9,
+      "color": "#E5DEE6"
+    }
+  ]
+}

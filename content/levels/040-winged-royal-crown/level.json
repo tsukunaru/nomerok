@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "winged-royal-crown",
+  "order": 40,
+  "title": {
+    "ru": "Крылатая корона",
+    "en": "Winged Royal Crown"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "крылатая корона"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "winged royal crown"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#420748"
+    },
+    {
+      "id": 2,
+      "color": "#901088"
+    },
+    {
+      "id": 3,
+      "color": "#8A491F"
+    },
+    {
+      "id": 4,
+      "color": "#4664CA"
+    },
+    {
+      "id": 5,
+      "color": "#C34CF3"
+    },
+    {
+      "id": 6,
+      "color": "#C47921"
+    },
+    {
+      "id": 7,
+      "color": "#9B8ED3"
+    },
+    {
+      "id": 8,
+      "color": "#EDB84B"
+    },
+    {
+      "id": 9,
+      "color": "#E5D3EA"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "rune-portal",
+  "order": 57,
+  "title": {
+    "ru": "Рунный портал",
+    "en": "Rune Portal"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "рунный портал"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "rune portal"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#27403F"
+    },
+    {
+      "id": 2,
+      "color": "#0660EA"
+    },
+    {
+      "id": 3,
+      "color": "#5E6039"
+    },
+    {
+      "id": 4,
+      "color": "#8F7F76"
+    },
+    {
+      "id": 5,
+      "color": "#968A23"
+    },
+    {
+      "id": 6,
+      "color": "#18B1F4"
+    },
+    {
+      "id": 7,
+      "color": "#E2AC54"
+    },
+    {
+      "id": 8,
+      "color": "#D0BBA2"
+    },
+    {
+      "id": 9,
+      "color": "#6FE1F6"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2292
+  }
+}

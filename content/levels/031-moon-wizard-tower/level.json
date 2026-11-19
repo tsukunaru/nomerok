@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "moon-wizard-tower",
+  "order": 31,
+  "title": {
+    "ru": "Лунная башня мага",
+    "en": "Moon Wizard Tower"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "лунная башня мага"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "moon wizard tower"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#1E223E"
+    },
+    {
+      "id": 2,
+      "color": "#474145"
+    },
+    {
+      "id": 3,
+      "color": "#4253A5"
+    },
+    {
+      "id": 4,
+      "color": "#85677D"
+    },
+    {
+      "id": 5,
+      "color": "#887039"
+    },
+    {
+      "id": 6,
+      "color": "#8683DB"
+    },
+    {
+      "id": 7,
+      "color": "#A5AFED"
+    },
+    {
+      "id": 8,
+      "color": "#D9C5D9"
+    },
+    {
+      "id": 9,
+      "color": "#FCE78C"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 770
+  }
+}

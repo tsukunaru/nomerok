@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "floating-greenhouse",
+  "order": 77,
+  "title": {
+    "ru": "Парящая оранжерея",
+    "en": "Floating Greenhouse"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "парящая оранжерея"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "floating greenhouse"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2B342C"
+    },
+    {
+      "id": 2,
+      "color": "#47495C"
+    },
+    {
+      "id": 3,
+      "color": "#774D2C"
+    },
+    {
+      "id": 4,
+      "color": "#4E621C"
+    },
+    {
+      "id": 5,
+      "color": "#7C7264"
+    },
+    {
+      "id": 6,
+      "color": "#B77B3A"
+    },
+    {
+      "id": 7,
+      "color": "#8B8E14"
+    },
+    {
+      "id": 8,
+      "color": "#7197C8"
+    },
+    {
+      "id": 9,
+      "color": "#B49780"
+    },
+    {
+      "id": 10,
+      "color": "#9FBBE8"
+    },
+    {
+      "id": 11,
+      "color": "#EABE6C"
+    },
+    {
+      "id": 12,
+      "color": "#DAE0ED"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 2169
+  }
+}

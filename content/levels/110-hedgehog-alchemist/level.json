@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "hedgehog-alchemist",
+  "order": 110,
+  "title": {
+    "ru": "Ёжик-алхимик",
+    "en": "Hedgehog Alchemist"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "ёжик-алхимик"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "hedgehog alchemist"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2E181E"
+    },
+    {
+      "id": 2,
+      "color": "#412361"
+    },
+    {
+      "id": 3,
+      "color": "#6B3A25"
+    },
+    {
+      "id": 4,
+      "color": "#713B8E"
+    },
+    {
+      "id": 5,
+      "color": "#9C53B8"
+    },
+    {
+      "id": 6,
+      "color": "#1B8090"
+    },
+    {
+      "id": 7,
+      "color": "#A6643A"
+    },
+    {
+      "id": 8,
+      "color": "#DF9D5D"
+    },
+    {
+      "id": 9,
+      "color": "#6AB9C0"
+    },
+    {
+      "id": 10,
+      "color": "#1BD3C9"
+    },
+    {
+      "id": 11,
+      "color": "#B9E0E3"
+    },
+    {
+      "id": 12,
+      "color": "#FADAA5"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 4695
+  }
+}

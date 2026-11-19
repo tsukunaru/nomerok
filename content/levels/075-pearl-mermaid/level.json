@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "pearl-mermaid",
+  "order": 75,
+  "title": {
+    "ru": "Жемчужная русалка",
+    "en": "Pearl Mermaid"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "жемчужная русалка"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "pearl mermaid"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#0C2374"
+    },
+    {
+      "id": 2,
+      "color": "#0F52B7"
+    },
+    {
+      "id": 3,
+      "color": "#5C4B91"
+    },
+    {
+      "id": 4,
+      "color": "#A57180"
+    },
+    {
+      "id": 5,
+      "color": "#1399EB"
+    },
+    {
+      "id": 6,
+      "color": "#8E8ACF"
+    },
+    {
+      "id": 7,
+      "color": "#56CAF6"
+    },
+    {
+      "id": 8,
+      "color": "#DBABAA"
+    },
+    {
+      "id": 9,
+      "color": "#E2D1DF"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2984
+  }
+}

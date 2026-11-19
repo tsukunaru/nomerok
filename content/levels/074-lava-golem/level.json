@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "lava-golem",
+  "order": 74,
+  "title": {
+    "ru": "Лавовый голем",
+    "en": "Lava Golem"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "лавовый голем"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "lava golem"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#370E15"
+    },
+    {
+      "id": 2,
+      "color": "#72140A"
+    },
+    {
+      "id": 3,
+      "color": "#4B2534"
+    },
+    {
+      "id": 4,
+      "color": "#B02506"
+    },
+    {
+      "id": 5,
+      "color": "#7D444A"
+    },
+    {
+      "id": 6,
+      "color": "#E74C04"
+    },
+    {
+      "id": 7,
+      "color": "#F99810"
+    },
+    {
+      "id": 8,
+      "color": "#E59876"
+    },
+    {
+      "id": 9,
+      "color": "#FDEF5F"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2719
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "enchanted-koi-pond",
+  "order": 39,
+  "title": {
+    "ru": "Зачарованный пруд с карпами кои",
+    "en": "Enchanted Koi Pond"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "зачарованный пруд с карпами кои"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "enchanted koi pond"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#283F1D"
+    },
+    {
+      "id": 2,
+      "color": "#143D7F"
+    },
+    {
+      "id": 3,
+      "color": "#685458"
+    },
+    {
+      "id": 4,
+      "color": "#177BD0"
+    },
+    {
+      "id": 5,
+      "color": "#637D0E"
+    },
+    {
+      "id": 6,
+      "color": "#6E89E1"
+    },
+    {
+      "id": 7,
+      "color": "#C78393"
+    },
+    {
+      "id": 8,
+      "color": "#BC9D2F"
+    },
+    {
+      "id": 9,
+      "color": "#D6C4E6"
+    }
+  ]
+}

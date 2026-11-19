@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-harp",
+  "order": 66,
+  "title": {
+    "ru": "Кристальная арфа",
+    "en": "Crystal Harp"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальная арфа"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal harp"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#293528"
+    },
+    {
+      "id": 2,
+      "color": "#4F597E"
+    },
+    {
+      "id": 3,
+      "color": "#5C6219"
+    },
+    {
+      "id": 4,
+      "color": "#2979DE"
+    },
+    {
+      "id": 5,
+      "color": "#AF7B1F"
+    },
+    {
+      "id": 6,
+      "color": "#B89673"
+    },
+    {
+      "id": 7,
+      "color": "#BA8FE3"
+    },
+    {
+      "id": 8,
+      "color": "#80A5EF"
+    },
+    {
+      "id": 9,
+      "color": "#E8D4E6"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2098
+  }
+}

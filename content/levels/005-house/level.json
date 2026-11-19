@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 2,
+  "id": "house",
+  "order": 5,
+  "title": {
+    "ru": "Домик в саду",
+    "en": "Garden House"
+  },
+  "category": "houses-cities",
+  "tags": {
+    "ru": [
+      "дом",
+      "сад",
+      "дача"
+    ],
+    "en": [
+      "house",
+      "garden",
+      "home"
+    ]
+  },
+  "difficulty": 1,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#FFD89A"
+    },
+    {
+      "id": 2,
+      "color": "#DB6F70"
+    },
+    {
+      "id": 3,
+      "color": "#75B7D8"
+    },
+    {
+      "id": 4,
+      "color": "#865F4B"
+    },
+    {
+      "id": 5,
+      "color": "#FFF2BD"
+    },
+    {
+      "id": 6,
+      "color": "#7BCF88"
+    },
+    {
+      "id": 7,
+      "color": "#F58BAD"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 1,
+    "columns": 20,
+    "rows": 20,
+    "regionCount": 183
+  }
+}

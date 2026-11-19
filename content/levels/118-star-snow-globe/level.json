@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "star-snow-globe",
+  "order": 118,
+  "title": {
+    "ru": "Звёздный снежный шар",
+    "en": "Star Snow Globe"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "звёздный снежный шар"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "star snow globe"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#12115B"
+    },
+    {
+      "id": 2,
+      "color": "#2A288C"
+    },
+    {
+      "id": 3,
+      "color": "#623643"
+    },
+    {
+      "id": 4,
+      "color": "#534B94"
+    },
+    {
+      "id": 5,
+      "color": "#4E4BCE"
+    },
+    {
+      "id": 6,
+      "color": "#AF6539"
+    },
+    {
+      "id": 7,
+      "color": "#767CD9"
+    },
+    {
+      "id": 8,
+      "color": "#977D8F"
+    },
+    {
+      "id": 9,
+      "color": "#5CA8F7"
+    },
+    {
+      "id": 10,
+      "color": "#A7B8E9"
+    },
+    {
+      "id": 11,
+      "color": "#EAB761"
+    },
+    {
+      "id": 12,
+      "color": "#E0E7F2"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 4483
+  }
+}

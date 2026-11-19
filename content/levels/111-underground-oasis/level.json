@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 4,
+  "id": "underground-oasis",
+  "order": 111,
+  "title": {
+    "ru": "Подземный оазис",
+    "en": "Underground Oasis"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "подземный оазис"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "underground oasis"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#0B1816"
+    },
+    {
+      "id": 2,
+      "color": "#1C3527"
+    },
+    {
+      "id": 3,
+      "color": "#165155"
+    },
+    {
+      "id": 4,
+      "color": "#3F5F1F"
+    },
+    {
+      "id": 5,
+      "color": "#5E6D52"
+    },
+    {
+      "id": 6,
+      "color": "#168287"
+    },
+    {
+      "id": 7,
+      "color": "#19AFBB"
+    },
+    {
+      "id": 8,
+      "color": "#45B3A6"
+    },
+    {
+      "id": 9,
+      "color": "#B5A459"
+    },
+    {
+      "id": 10,
+      "color": "#40DAD9"
+    },
+    {
+      "id": 11,
+      "color": "#74EBE2"
+    },
+    {
+      "id": 12,
+      "color": "#BBF8F4"
+    }
+  ]
+}

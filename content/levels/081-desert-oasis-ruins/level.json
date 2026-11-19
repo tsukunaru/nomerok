@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "desert-oasis-ruins",
+  "order": 81,
+  "title": {
+    "ru": "Руины пустынного оазиса",
+    "en": "Desert Oasis Ruins"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "руины пустынного оазиса"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "desert oasis ruins"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#414513"
+    },
+    {
+      "id": 2,
+      "color": "#29647F"
+    },
+    {
+      "id": 3,
+      "color": "#9B5D22"
+    },
+    {
+      "id": 4,
+      "color": "#64740E"
+    },
+    {
+      "id": 5,
+      "color": "#758359"
+    },
+    {
+      "id": 6,
+      "color": "#30B6B9"
+    },
+    {
+      "id": 7,
+      "color": "#D89843"
+    },
+    {
+      "id": 8,
+      "color": "#AAB110"
+    },
+    {
+      "id": 9,
+      "color": "#9EAF9B"
+    },
+    {
+      "id": 10,
+      "color": "#67BCEE"
+    },
+    {
+      "id": 11,
+      "color": "#F8CE74"
+    },
+    {
+      "id": 12,
+      "color": "#C8E3ED"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 75,
+    "rows": 75,
+    "regionCount": 3176
+  }
+}

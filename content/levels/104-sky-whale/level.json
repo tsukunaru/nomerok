@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "sky-whale",
+  "order": 104,
+  "title": {
+    "ru": "Небесный кит",
+    "en": "Sky Whale"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "небесный кит"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "sky whale"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#15313D"
+    },
+    {
+      "id": 2,
+      "color": "#103C73"
+    },
+    {
+      "id": 3,
+      "color": "#465424"
+    },
+    {
+      "id": 4,
+      "color": "#465B59"
+    },
+    {
+      "id": 5,
+      "color": "#245FA0"
+    },
+    {
+      "id": 6,
+      "color": "#7D7D37"
+    },
+    {
+      "id": 7,
+      "color": "#708A90"
+    },
+    {
+      "id": 8,
+      "color": "#488FD5"
+    },
+    {
+      "id": 9,
+      "color": "#C48D45"
+    },
+    {
+      "id": 10,
+      "color": "#77BBEE"
+    },
+    {
+      "id": 11,
+      "color": "#E2B769"
+    },
+    {
+      "id": 12,
+      "color": "#B4E2F8"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 3226
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "sun-lion",
+  "order": 61,
+  "title": {
+    "ru": "Солнечный лев",
+    "en": "Sun Lion"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "солнечный лев"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "sun lion"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#333817"
+    },
+    {
+      "id": 2,
+      "color": "#735210"
+    },
+    {
+      "id": 3,
+      "color": "#2C77C9"
+    },
+    {
+      "id": 4,
+      "color": "#B7610B"
+    },
+    {
+      "id": 5,
+      "color": "#8F745B"
+    },
+    {
+      "id": 6,
+      "color": "#E68F12"
+    },
+    {
+      "id": 7,
+      "color": "#73ADE8"
+    },
+    {
+      "id": 8,
+      "color": "#F8C537"
+    },
+    {
+      "id": 9,
+      "color": "#F7E081"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2168
+  }
+}

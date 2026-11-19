@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "celestial-observatory-island",
+  "order": 29,
+  "title": {
+    "ru": "Небесный остров-обсерватория",
+    "en": "Celestial Observatory Island"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "небесный остров-обсерватория"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "celestial observatory island"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2B2B70"
+    },
+    {
+      "id": 2,
+      "color": "#303820"
+    },
+    {
+      "id": 3,
+      "color": "#2D4CCA"
+    },
+    {
+      "id": 4,
+      "color": "#734D20"
+    },
+    {
+      "id": 5,
+      "color": "#745D5A"
+    },
+    {
+      "id": 6,
+      "color": "#8E69CB"
+    },
+    {
+      "id": 7,
+      "color": "#B17E36"
+    },
+    {
+      "id": 8,
+      "color": "#55A5F4"
+    },
+    {
+      "id": 9,
+      "color": "#C39C9E"
+    }
+  ]
+}

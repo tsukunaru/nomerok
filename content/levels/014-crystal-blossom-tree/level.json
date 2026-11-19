@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-blossom-tree",
+  "order": 14,
+  "title": {
+    "ru": "Цветущее кристальное дерево",
+    "en": "Crystal Blossom Tree"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальное цветущее дерево"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal blossom tree"
+    ]
+  },
+  "difficulty": 2,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#40343B"
+    },
+    {
+      "id": 2,
+      "color": "#662A8E"
+    },
+    {
+      "id": 3,
+      "color": "#2A4DDA"
+    },
+    {
+      "id": 4,
+      "color": "#D1439C"
+    },
+    {
+      "id": 5,
+      "color": "#866844"
+    },
+    {
+      "id": 6,
+      "color": "#47A9F9"
+    },
+    {
+      "id": 7,
+      "color": "#F692AC"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 30,
+    "rows": 30,
+    "regionCount": 444
+  }
+}

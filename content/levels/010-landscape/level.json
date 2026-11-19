@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 2,
+  "id": "landscape",
+  "order": 10,
+  "title": {
+    "ru": "Тихая долина",
+    "en": "Quiet Valley"
+  },
+  "category": "landscapes",
+  "tags": {
+    "ru": [
+      "пейзаж",
+      "горы",
+      "долина"
+    ],
+    "en": [
+      "landscape",
+      "mountains",
+      "valley"
+    ]
+  },
+  "difficulty": 1,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#9BDCF0"
+    },
+    {
+      "id": 2,
+      "color": "#7AC784"
+    },
+    {
+      "id": 3,
+      "color": "#7E87B8"
+    },
+    {
+      "id": 4,
+      "color": "#B9ADD0"
+    },
+    {
+      "id": 5,
+      "color": "#FFD563"
+    },
+    {
+      "id": 6,
+      "color": "#FFF6DC"
+    },
+    {
+      "id": 7,
+      "color": "#5EB9CF"
+    },
+    {
+      "id": 8,
+      "color": "#4F9B68"
+    },
+    {
+      "id": 9,
+      "color": "#D77868"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 1,
+    "columns": 20,
+    "rows": 20,
+    "regionCount": 388
+  }
+}

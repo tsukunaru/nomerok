@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "sakura-fox",
+  "order": 60,
+  "title": {
+    "ru": "Лис под сакурой",
+    "en": "Sakura Fox"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "лис под сакурой"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "sakura fox"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#4D2A2D"
+    },
+    {
+      "id": 2,
+      "color": "#A13864"
+    },
+    {
+      "id": 3,
+      "color": "#BB3E14"
+    },
+    {
+      "id": 4,
+      "color": "#7C5934"
+    },
+    {
+      "id": 5,
+      "color": "#ED6287"
+    },
+    {
+      "id": 6,
+      "color": "#B68B70"
+    },
+    {
+      "id": 7,
+      "color": "#F28A2B"
+    },
+    {
+      "id": 8,
+      "color": "#F8A0A2"
+    },
+    {
+      "id": 9,
+      "color": "#FCD7C8"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2228
+  }
+}

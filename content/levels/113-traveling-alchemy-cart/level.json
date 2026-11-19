@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 4,
+  "id": "traveling-alchemy-cart",
+  "order": 113,
+  "title": {
+    "ru": "Походная алхимическая тележка",
+    "en": "Traveling Alchemy Cart"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "походная алхимическая тележка"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "traveling alchemy cart"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#171614"
+    },
+    {
+      "id": 2,
+      "color": "#3A271C"
+    },
+    {
+      "id": 3,
+      "color": "#5F3C25"
+    },
+    {
+      "id": 4,
+      "color": "#354843"
+    },
+    {
+      "id": 5,
+      "color": "#8B5530"
+    },
+    {
+      "id": 6,
+      "color": "#6D6055"
+    },
+    {
+      "id": 7,
+      "color": "#1E8770"
+    },
+    {
+      "id": 8,
+      "color": "#1185DC"
+    },
+    {
+      "id": 9,
+      "color": "#A78D74"
+    },
+    {
+      "id": 10,
+      "color": "#E3952C"
+    },
+    {
+      "id": 11,
+      "color": "#39CCB1"
+    },
+    {
+      "id": 12,
+      "color": "#D2B692"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "moon-rabbit",
+  "order": 41,
+  "title": {
+    "ru": "Лунный кролик",
+    "en": "Moon Rabbit"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "лунный кролик"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "moon rabbit"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#242941"
+    },
+    {
+      "id": 2,
+      "color": "#3C5B10"
+    },
+    {
+      "id": 3,
+      "color": "#564C7F"
+    },
+    {
+      "id": 4,
+      "color": "#7668CE"
+    },
+    {
+      "id": 5,
+      "color": "#9A8546"
+    },
+    {
+      "id": 6,
+      "color": "#9B81A0"
+    },
+    {
+      "id": 7,
+      "color": "#BAA4D6"
+    },
+    {
+      "id": 8,
+      "color": "#EBC787"
+    },
+    {
+      "id": 9,
+      "color": "#EFE1E3"
+    }
+  ]
+}

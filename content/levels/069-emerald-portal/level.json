@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "emerald-portal",
+  "order": 69,
+  "title": {
+    "ru": "Изумрудный портал",
+    "en": "Emerald Portal"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "изумрудный портал"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "emerald portal"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#223528"
+    },
+    {
+      "id": 2,
+      "color": "#4B5231"
+    },
+    {
+      "id": 3,
+      "color": "#03714A"
+    },
+    {
+      "id": 4,
+      "color": "#7A6755"
+    },
+    {
+      "id": 5,
+      "color": "#839114"
+    },
+    {
+      "id": 6,
+      "color": "#AB8B6D"
+    },
+    {
+      "id": 7,
+      "color": "#1AC372"
+    },
+    {
+      "id": 8,
+      "color": "#C9CA85"
+    },
+    {
+      "id": 9,
+      "color": "#6BEE9E"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2464
+  }
+}

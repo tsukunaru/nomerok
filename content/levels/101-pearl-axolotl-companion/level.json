@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "pearl-axolotl-companion",
+  "order": 101,
+  "title": {
+    "ru": "Жемчужный аксолотль-компаньон",
+    "en": "Pearl Axolotl Companion"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "жемчужный аксолотль-компаньон"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "pearl axolotl companion"
+    ]
+  },
+  "difficulty": 5,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#182343"
+    },
+    {
+      "id": 2,
+      "color": "#57436C"
+    },
+    {
+      "id": 3,
+      "color": "#10658D"
+    },
+    {
+      "id": 4,
+      "color": "#964681"
+    },
+    {
+      "id": 5,
+      "color": "#2F7654"
+    },
+    {
+      "id": 6,
+      "color": "#DF4B9D"
+    },
+    {
+      "id": 7,
+      "color": "#1D8EB9"
+    },
+    {
+      "id": 8,
+      "color": "#AE7B96"
+    },
+    {
+      "id": 9,
+      "color": "#839720"
+    },
+    {
+      "id": 10,
+      "color": "#5EBAE6"
+    },
+    {
+      "id": 11,
+      "color": "#F099B8"
+    },
+    {
+      "id": 12,
+      "color": "#F9DCDA"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 90,
+    "rows": 90,
+    "regionCount": 3508
+  }
+}

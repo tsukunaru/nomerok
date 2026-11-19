@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "sleeping-wizard-cat",
+  "order": 30,
+  "title": {
+    "ru": "Спящий кот мага",
+    "en": "Sleeping Wizard Cat"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "спящий кот мага"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "sleeping wizard cat"
+    ]
+  },
+  "difficulty": 3,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#2F2410"
+    },
+    {
+      "id": 2,
+      "color": "#1C2D44"
+    },
+    {
+      "id": 3,
+      "color": "#753719"
+    },
+    {
+      "id": 4,
+      "color": "#40520C"
+    },
+    {
+      "id": 5,
+      "color": "#4A535D"
+    },
+    {
+      "id": 6,
+      "color": "#DD731C"
+    },
+    {
+      "id": 7,
+      "color": "#B78561"
+    },
+    {
+      "id": 8,
+      "color": "#F5B657"
+    },
+    {
+      "id": 9,
+      "color": "#F0CEB1"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 45,
+    "rows": 45,
+    "regionCount": 901
+  }
+}

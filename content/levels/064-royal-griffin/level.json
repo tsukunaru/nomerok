@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "royal-griffin",
+  "order": 64,
+  "title": {
+    "ru": "Королевский грифон",
+    "en": "Royal Griffin"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "королевский грифон"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "royal griffin"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#1D326D"
+    },
+    {
+      "id": 2,
+      "color": "#4A2D28"
+    },
+    {
+      "id": 3,
+      "color": "#2D54A0"
+    },
+    {
+      "id": 4,
+      "color": "#7D5242"
+    },
+    {
+      "id": 5,
+      "color": "#3089DD"
+    },
+    {
+      "id": 6,
+      "color": "#BF722B"
+    },
+    {
+      "id": 7,
+      "color": "#B0949A"
+    },
+    {
+      "id": 8,
+      "color": "#F0B047"
+    },
+    {
+      "id": 9,
+      "color": "#F0DCCD"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2253
+  }
+}

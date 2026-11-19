@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "waterfall-castle",
+  "order": 52,
+  "title": {
+    "ru": "Замок водопадов",
+    "en": "Waterfall Castle"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "замок водопадов"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "waterfall castle"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#283853"
+    },
+    {
+      "id": 2,
+      "color": "#3C5387"
+    },
+    {
+      "id": 3,
+      "color": "#4C6835"
+    },
+    {
+      "id": 4,
+      "color": "#84706C"
+    },
+    {
+      "id": 5,
+      "color": "#6192CF"
+    },
+    {
+      "id": 6,
+      "color": "#8D972B"
+    },
+    {
+      "id": 7,
+      "color": "#CFAA88"
+    },
+    {
+      "id": 8,
+      "color": "#90BCEF"
+    },
+    {
+      "id": 9,
+      "color": "#D3E3F2"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 1880
+  }
+}

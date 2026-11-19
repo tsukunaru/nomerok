@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 3,
+  "id": "crystal-tree-island",
+  "order": 56,
+  "title": {
+    "ru": "Кристальное дерево на острове",
+    "en": "Crystal Tree Island"
+  },
+  "category": "fantasy",
+  "tags": {
+    "ru": [
+      "фэнтези",
+      "пиксель-арт",
+      "кристальное дерево-остров"
+    ],
+    "en": [
+      "fantasy",
+      "pixel art",
+      "crystal tree island"
+    ]
+  },
+  "difficulty": 4,
+  "palette": [
+    {
+      "id": 1,
+      "color": "#273C37"
+    },
+    {
+      "id": 2,
+      "color": "#3E5162"
+    },
+    {
+      "id": 3,
+      "color": "#816544"
+    },
+    {
+      "id": 4,
+      "color": "#527629"
+    },
+    {
+      "id": 5,
+      "color": "#2E84CB"
+    },
+    {
+      "id": 6,
+      "color": "#A29D28"
+    },
+    {
+      "id": 7,
+      "color": "#76B8F2"
+    },
+    {
+      "id": 8,
+      "color": "#E3C53F"
+    },
+    {
+      "id": 9,
+      "color": "#C7E9F8"
+    }
+  ],
+  "previousContent": {
+    "contentVersion": 2,
+    "columns": 65,
+    "rows": 65,
+    "regionCount": 2057
+  }
+}
