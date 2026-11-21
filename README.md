@@ -17,5 +17,8 @@ npm run dev
 
 ## Скриншоты
 
+![Стартовый экран «Номерка»](screenshots/start.webp)
+
 ![Каталог раскрасок](screenshots/catalog.webp)
+
 ![Раскрашивание по номерам](screenshots/gameplay.webp)
