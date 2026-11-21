@@ -4,7 +4,6 @@ export interface Translations {
   gameTitle: string;
   play: string;
   levelSelect: string;
-  music: string;
   palette: string;
   tutorial: string;
   tutorialNext: string;

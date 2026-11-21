@@ -69,7 +69,6 @@ export interface LevelProgress {
 
 export interface SaveSettings {
   readonly sound: boolean;
-  readonly music?: boolean;
   readonly tutorialCompleted?: boolean;
   readonly language: LanguageSetting;
   readonly updatedAt: number;

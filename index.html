@@ -8,17 +8,42 @@
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%237967ff'/%3E%3Ccircle cx='23' cy='23' r='11' fill='%23ff8fab'/%3E%3Ccircle cx='42' cy='23' r='9' fill='%23ffd166'/%3E%3Ccircle cx='32' cy='42' r='10' fill='%236bcb77'/%3E%3C/svg%3E" />
     <title>Номерок</title>
     <style>
-      html,body,#root{width:100%;height:100%;margin:0;overflow:hidden;overscroll-behavior:none;background:#f4f1fb}body{font-family:system-ui,sans-serif}.boot-loader{height:100%;display:grid;place-content:center;grid-auto-flow:column;gap:8px}.boot-loader span{width:14px;height:14px;border-radius:50%;background:#7967ff;animation:boot .8s infinite alternate}.boot-loader span:nth-child(2){background:#ff8fab;animation-delay:.15s}.boot-loader span:nth-child(3){background:#ffd166;animation-delay:.3s}@keyframes boot{to{transform:translateY(-10px)}}
+      :root {
+        --entry-background: radial-gradient(ellipse at 24% 22%, #3b2c54, transparent 62%),
+          radial-gradient(ellipse at 80% 82%, #29233e, transparent 56%), #151322;
+      }
+      html, body, #root { width: 100%; height: 100%; margin: 0; overflow: hidden; overscroll-behavior: none; }
+      html { background: #151322; }
+      body { font-family: system-ui, sans-serif; }
+      .entry-loader {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #e0d7ef;
+        background: #151322;
+        background: var(--entry-background);
+      }
+      .entry-loader p { margin: 18px 0 0; font-size: .9rem; }
+      .entry-pixels { width: 41px; height: 41px; display: flex; flex-wrap: wrap; justify-content: space-between; align-content: space-between; }
+      .entry-pixels i { width: 18px; height: 18px; border-radius: 4px; background: #9b7afa; animation: entry-pixel 1s infinite alternate ease-in-out; }
+      .entry-pixels i:nth-child(2) { background: #eaa8cf; animation-delay: .12s; }
+      .entry-pixels i:nth-child(3) { background: #f7cf95; animation-delay: .36s; }
+      .entry-pixels i:nth-child(4) { background: #9dc6fa; animation-delay: .24s; }
+      @keyframes entry-pixel { from { opacity: .45; transform: scale(.76); } }
+      @media (prefers-reduced-motion: reduce) { .entry-pixels i { animation: none; } }
     </style>
-    <!-- vite-ignore -->
-    <script src="/sdk.js"></script>
   </head>
   <body>
     <div id="root">
-      <div class="boot-loader" aria-label="Загрузка">
-        <span></span><span></span><span></span>
+      <div class="entry-loader" role="status" aria-label="Загрузка">
+        <span class="entry-pixels" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
       </div>
     </div>
+    <!-- vite-ignore -->
+    <script src="/sdk.js"></script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -5,7 +5,6 @@ export const en: Translations = {
   gameTitle: gameTitle.en,
   play: 'Play',
   levelSelect: 'Level Select',
-  music: 'Music',
   palette: 'Palette',
   home: 'Home',
   difficulty: ['Easy', 'Normal', 'Hard', 'Very hard', 'Master'],

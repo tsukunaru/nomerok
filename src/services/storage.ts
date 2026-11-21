@@ -62,7 +62,7 @@ const cloudDebouncer = createSaveDebouncer(CLOUD_DELAY);
 export const createDefaultSave = (): SaveData => ({
   version: 3,
   levels: {},
-  settings: { sound: true, music: true, tutorialCompleted: false, language: 'auto', updatedAt: 0 },
+  settings: { sound: true, tutorialCompleted: false, language: 'auto', updatedAt: 0 },
   meta: { updatedAt: 0 },
 });
 
@@ -97,7 +97,6 @@ const migrateSettings = (value: unknown, fallbackUpdatedAt: number): SaveSetting
   const language = settings.language;
   return {
     sound: settings.sound !== false,
-    music: settings.music !== false,
     tutorialCompleted: settings.tutorialCompleted === true,
     language: language === 'ru' || language === 'en' ? language : 'auto',
     updatedAt: finiteTime(settings.updatedAt) || fallbackUpdatedAt,

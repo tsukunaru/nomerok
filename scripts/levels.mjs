@@ -255,10 +255,11 @@ export const validateLevels = async (contentRoot = defaultContentRoot) => {
   return results.sort((a, b) => a.metadata.order - b.metadata.order);
 };
 
-const manifestEntry = ({ metadata, compiled }) => ({
+const manifestEntry = ({ metadata, compiled }, index) => ({
   id: metadata.id,
   contentVersion: metadata.contentVersion,
-  order: metadata.order,
+  // Catalog numbers follow the live list; authored order still determines the import grid.
+  order: index + 1,
   title: metadata.title,
   category: metadata.category,
   tags: metadata.tags,

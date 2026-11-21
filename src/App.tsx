@@ -8,7 +8,7 @@ import { dictionaries } from './i18n/index.ts';
 import { GameScreen } from './screens/GameScreen.tsx';
 import { HomeScreen } from './screens/HomeScreen.tsx';
 import { StartScreen } from './screens/StartScreen.tsx';
-import { pauseAudio, resumeAudio, setSoundEnabled, setMusicEnabled, setMusicScene, unlockAudio, playUISound } from './services/audio.ts';
+import { pauseAudio, resumeAudio, setSoundEnabled, unlockAudio, playUISound } from './services/audio.ts';
 import { loadLevel, loadLevelManifest } from './services/levels.ts';
 import { setStickyBannerVisible, shouldShowStickyBanner } from './services/ads.ts';
 import {
@@ -69,12 +69,6 @@ export default function App() {
   const acceptManifest = useCallback((levels: readonly LevelManifestEntry[]) => {
     setManifest(levels);
     setCatalogFailed(false);
-    const hashLevelId = levelIdFromHash();
-    if (hashLevelId && !levels.some(({ id }) => id === hashLevelId)) {
-      history.replaceState({ quietColorsHome: true }, '', homeUrl());
-      setActiveLevelId(null);
-      setCatalogOpen(true);
-    }
   }, []);
 
   useEffect(() => {
@@ -127,7 +121,12 @@ export default function App() {
     setLevelFailed(false);
     if (!activeLevelId || !manifest.length) return () => { alive = false; };
     const entry = manifest.find(({ id }) => id === activeLevelId);
-    if (!entry) return () => { alive = false; };
+    if (!entry) {
+      history.replaceState({ quietColorsHome: true }, '', catalogUrl());
+      setActiveLevelId(null);
+      setCatalogOpen(true);
+      return;
+    }
     void loadLevel(entry).then((level) => {
       if (alive) setActiveLevel(level);
     }).catch((error) => {
@@ -201,8 +200,6 @@ export default function App() {
   }, [language, t.gameTitle]);
 
   useEffect(() => setSoundEnabled(save.settings.sound), [save.settings.sound]);
-  useEffect(() => setMusicEnabled(save.settings.music !== false), [save.settings.music]);
-  useEffect(() => setMusicScene(activeLevel ? 'gameplay' : 'menu'), [Boolean(activeLevel)]);
 
   useEffect(() => {
     if (platformReady) void setStickyBannerVisible(shouldShowStickyBanner(activeLevelId));
@@ -263,7 +260,7 @@ export default function App() {
   }, [acceptManifest]);
 
   if (booting) {
-    return <div className="app-loader" role="status"><span className="loader-palette"><i /><i /><i /></span><p>{t.loading}</p></div>;
+    return <div className="entry-loader" role="status"><span className="entry-pixels" aria-hidden="true"><i /><i /><i /><i /></span><p>{t.loading}</p></div>;
   }
 
   let content;
@@ -304,7 +301,7 @@ export default function App() {
   return (
     <div
       className="app-shell"
-      onClickCapture={(event) => { unlockAudio(); if ((event.target as Element).closest('button')) playUISound(); }}
+      onClickCapture={(event) => { unlockAudio(); if ((event.target as Element).closest('button:not(.color-button)')) playUISound(); }}
       onKeyDownCapture={unlockAudio}
       onContextMenuCapture={(event) => event.preventDefault()}
     >
@@ -318,7 +315,6 @@ export default function App() {
         accountAuthorized={accountAuthorized}
         onClose={() => setSettingsOpen(false)}
         onSoundChange={(sound) => updateSettings({ sound })}
-        onMusicChange={(music) => updateSettings({ music })}
         onTutorial={() => { setSettingsOpen(false); setTutorialReplay(true); if (!activeLevel && manifest[0]) openLevel(manifest[0].id); }}
         onLanguageChange={(languageSetting) => updateSettings({ language: languageSetting })}
         onReset={() => activeLevel && resetLevel(activeLevel.id, activeLevel.contentVersion)}

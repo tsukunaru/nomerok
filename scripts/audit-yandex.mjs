@@ -13,7 +13,7 @@ const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const publicRoot = resolve(projectRoot, 'public');
 const distRoot = resolve(projectRoot, 'dist');
 const archivePath = resolve(projectRoot, 'release/numbi-yandex-final.zip');
-const expectedLevelCount = 120;
+const expectedLevelCount = 110;
 
 const walk = async (folder) => {
   const entries = await readdir(folder, { withFileTypes: true });
@@ -64,11 +64,9 @@ const verifyManifest = async (levels) => {
   unique(manifest.map(({ title }) => title.en.trim().toLowerCase()), 'English title');
   unique(manifest.map(({ thumbnail }) => thumbnail), 'thumbnail reference');
   unique(manifest.map(({ levelData }) => levelData), 'level data reference');
-  const sourceById = new Map(levels.map((level) => [level.metadata.id, level]));
   for (const [index, entry] of manifest.entries()) {
-    const source = sourceById.get(entry.id);
-    assert(source, `manifest ID has no source level: ${entry.id}`);
-    assert(entry.order === index + 1 && source.metadata.order === entry.order, `invalid order for ${entry.id}`);
+    const source = levels[index];
+    assert(source?.metadata.id === entry.id && entry.order === index + 1, `invalid order for ${entry.id}`);
     assert(entry.difficulty >= (manifest[index - 1]?.difficulty ?? 1), `difficulty drops at ${entry.id}`);
     assert(entry.contentVersion === source.metadata.contentVersion, `content version mismatch for ${entry.id}`);
     assert(entry.title.ru === source.metadata.title.ru && entry.title.en === source.metadata.title.en, `localized title mismatch for ${entry.id}`);

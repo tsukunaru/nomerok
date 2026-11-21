@@ -5,7 +5,6 @@ export const ru: Translations = {
   gameTitle: gameTitle.ru,
   play: 'Играть',
   levelSelect: 'Выбор картинок',
-  music: 'Музыка',
   palette: 'Палитра',
   home: 'Главная',
   difficulty: ['Легко', 'Нормально', 'Сложно', 'Очень сложно', 'Мастер'],

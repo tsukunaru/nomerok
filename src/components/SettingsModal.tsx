@@ -13,7 +13,6 @@ interface SettingsModalProps {
   accountAuthorized: boolean;
   onClose: () => void;
   onSoundChange: (enabled: boolean) => void;
-  onMusicChange: (enabled: boolean) => void;
   onTutorial: () => void;
   onLanguageChange: (language: LanguageSetting) => void;
   onReset: () => void;
@@ -29,7 +28,6 @@ export const SettingsModal = ({
   accountAuthorized,
   onClose,
   onSoundChange,
-  onMusicChange,
   onTutorial,
   onLanguageChange,
   onReset,
@@ -57,10 +55,6 @@ export const SettingsModal = ({
     <>
       <Modal open={open && !confirmOpen} title={t.settings} closeLabel={t.close} onClose={onClose}>
         <div className="settings-list">
-          <div className="setting-row">
-            <span className="setting-label">{t.music}</span>
-            <button className={`switch ${settings.music !== false ? 'is-on' : ''}`} role="switch" aria-label={t.music} aria-checked={settings.music !== false} onClick={() => onMusicChange(settings.music === false)}><span /></button>
-          </div>
           <div className="setting-row">
             <span className="setting-label"><Icon name={settings.sound ? 'sound' : 'sound-off'} />{t.sound}</span>
             <button

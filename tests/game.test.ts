@@ -115,7 +115,7 @@ const imageConfig = () => validateImportConfig('fixture', {
   grid: { columns: 20, rows: 20, colorCount: 3, padding: 1, removeWhiteBackground: true },
 });
 
-test('all 120 production levels are valid, unique, and follow the progressive grids', async () => {
+test('all 110 production levels keep the retained IDs and grids', async () => {
   const levels = await levelsPromise;
   const replacedIds = new Set([
     'arcane-crystal-platform', 'winged-royal-crown', 'celestial-observatory-island', 'moon-cauldron',
@@ -123,9 +123,10 @@ test('all 120 production levels are valid, unique, and follow the progressive gr
     'sun-clockwork-guardian', 'stellar-planetary-mobile', 'underground-oasis', 'stellar-harp',
     'traveling-alchemy-cart', 'sun-moon-observatory',
   ]);
-  assert.equal(levels.length, 120);
-  assert.deepEqual([1, 2, 3, 4, 5].map((difficulty) => levels.filter(({ metadata }) => metadata.difficulty === difficulty).length), [10, 15, 25, 50, 20]);
-  assert.deepEqual(levels.map(({ metadata }) => metadata.order), Array.from({ length: 120 }, (_, index) => index + 1));
+  assert.equal(levels.length, 110);
+  assert.equal(levels[0].metadata.id, 'enchanted-lantern');
+  assert.deepEqual([1, 2, 3, 4, 5].map((difficulty) => levels.filter(({ metadata }) => metadata.difficulty === difficulty).length), [0, 15, 25, 50, 20]);
+  assert.deepEqual(levels.map(({ metadata }) => metadata.order), Array.from({ length: 110 }, (_, index) => index + 11));
   assert.ok(levels.slice(1).every(({ metadata }, index) => metadata.difficulty >= levels[index].metadata.difficulty), 'difficulty must not drop between levels');
   for (const { metadata, compiled } of levels) {
     const grid = gridForOrder(metadata.order);
@@ -157,7 +158,7 @@ test('measured level complexity has no adjacent drop greater than 25%', async ()
     const change = (scores[index].score - scores[index - 1].score) / scores[index - 1].score;
     assert.ok(change >= -.25, `${levels[index - 1].metadata.id} -> ${levels[index].metadata.id}: ${(change * 100).toFixed(2)}%`);
   }
-  const averages = [1, 2, 3, 4, 5].map((difficulty) => {
+  const averages = [2, 3, 4, 5].map((difficulty) => {
     const group = levels.filter(({ metadata }) => metadata.difficulty === difficulty).map(levelComplexity);
     return group.reduce((sum, item) => sum + item.score, 0) / group.length;
   });
@@ -222,11 +223,15 @@ test('version 1 and 2 saves migrate automatically to compact V3 masks', async ()
   assert.ok(migratedV2);
   assert.equal(hasPaintedIndex(decodePaintedMask(migratedV2.levels.flower.paintedMask), pixelIndex(7, 3)), true);
 
-  const cat = (await levelsPromise).find(({ compiled }) => compiled.id === 'cat')?.compiled;
-  assert.ok(cat);
-  const expected = cat.regions.filter(({ legacyRegionId }) => legacyRegionId === 'head').length;
-  assert.ok(expected > 1);
-  assert.equal(countPaintedBits(getLevelProgress(cat, migratedV1.levels.cat).paintedMask), expected);
+  const level = (await levelsPromise)[0].compiled;
+  const legacyLevel: PaintLevel = {
+    ...level,
+    id: 'cat',
+    contentVersion: 2,
+    previousContent: { contentVersion: 1, columns: 20, rows: 20, regionCount: 3 },
+    regions: level.regions.slice(0, 3).map((region, index) => ({ ...region, legacyRegionId: index < 2 ? 'head' : 'tail' })),
+  };
+  assert.equal(countPaintedBits(getLevelProgress(legacyLevel, migratedV1.levels.cat).paintedMask), 2);
 });
 
 test('a changed contentVersion safely resets stale geometry progress', async () => {
@@ -306,13 +311,13 @@ test('reward scales 10/15/25/40/60, falls back from completed colors, and finish
   const level = (await levelsPromise)[0].compiled;
   const empty = getLevelProgress(level);
   const reward = getRewardRegions(level, empty, 1);
-  assert.equal(reward.length, 10);
+  assert.equal(reward.length, getRewardPixelCount(level.difficulty));
   assert.ok(reward.every((r) => r.colorId === 1));
   const colorDone = paintRegions(level, empty, level.regions.filter((r) => r.colorId === 1).map((r) => r.id));
   const fallback = getRewardRegions(level, colorDone, 1);
-  assert.ok(fallback.length > 0 && fallback.length <= 10);
+  assert.ok(fallback.length > 0 && fallback.length <= getRewardPixelCount(level.difficulty));
   assert.ok(fallback.every((r) => r.colorId !== 1));
-  const remaining = [level.regions[0], level.regions.find((r) => r.colorId === 2)!, level.regions.at(-1)!];
+  const remaining = level.regions.slice(-3);
   const almost = paintRegions(level, empty, level.regions.filter((r) => !remaining.includes(r)).map((r) => r.id));
   assert.equal(getRewardRegions(level, almost, 1).length, 3);
   assert.equal(paintRegions(level, almost, getRewardRegions(level, almost, 1).map((r) => r.id)).completed, true);
@@ -359,14 +364,13 @@ test('progression boundaries and manual difficulty overrides are stable', async 
   assert.ok(initialScaleForGrid(90) >= 4.5);
 });
 
-test('music and tutorial settings migrate and persist without changing Save V3', () => {
-  const initial = migrateSaveData({ version: 3, levels: {}, settings: { sound: false } })!;
+test('old music settings are discarded while sound and tutorial settings keep Save V3', () => {
+  const initial = migrateSaveData({ version: 3, levels: {}, settings: { sound: false, music: true } })!;
   assert.equal(initial.settings.tutorialCompleted, false);
-  assert.equal(initial.settings.music, true);
-  const updated = { ...initial, settings: { ...initial.settings, music: false, tutorialCompleted: true, updatedAt: 10 } };
+  assert.equal('music' in initial.settings, false);
+  const updated = { ...initial, settings: { ...initial.settings, tutorialCompleted: true, updatedAt: 10 } };
   const restored = migrateSaveData(JSON.parse(JSON.stringify(updated)))!;
   assert.equal(restored.version, 3);
-  assert.equal(restored.settings.music, false);
   assert.equal(restored.settings.sound, false);
   assert.equal(restored.settings.tutorialCompleted, true);
 });
@@ -503,55 +507,58 @@ test('SDK skips unchanged cloud data before calling player.setData', async () =>
   } finally { host.window = previous; }
 });
 
-test('Web Audio music pauses for focus/visibility and music mute is independent from SFX', async () => {
-  const host = globalThis as unknown as { window: unknown; document: unknown; fetch: unknown };
-  const previous = { window: host.window, document: host.document, fetch: host.fetch };
+test('palette sound is one short tone and is muted during pause or when sound is off', async () => {
+  const host = globalThis as unknown as { window: unknown; document: unknown };
+  const previous = { window: host.window, document: host.document };
   let starts = 0;
-  let stops = 0;
-  class MockGain { gain = { value: 0 }; connect() { return this; } }
-  class MockSource {
-    loop = false;
-    buffer: unknown;
-    onended: (() => void) | null = null;
+  const stopTimes: number[] = [];
+  class MockGain {
+    gain = { value: 0, setValueAtTime() {}, exponentialRampToValueAtTime() {} };
     connect() { return this; }
-    start() { starts += 1; }
-    stop() { stops += 1; }
-    disconnect() {}
   }
   class MockAudioContext {
     currentTime = 0;
     destination = {};
     createGain() { return new MockGain(); }
-    createBufferSource() { return new MockSource(); }
-    createOscillator() { return { type: 'sine', frequency: { setValueAtTime() {} }, connect() { return this; }, start() {}, stop() {}, disconnect() {}, onended: null }; }
-    decodeAudioData() { return Promise.resolve({}); }
+    createOscillator() {
+      return {
+        type: 'sine',
+        frequency: { setValueAtTime() {}, exponentialRampToValueAtTime() {} },
+        connect() { return this; },
+        start() { starts += 1; },
+        stop(time: number) { stopTimes.push(time); },
+        onended: null,
+      };
+    }
     resume() { return Promise.resolve(); }
     suspend() { return Promise.resolve(); }
   }
-  const documentMock = { baseURI: 'http://localhost/', visibilityState: 'visible', hasFocus: () => true };
+  const documentMock = { visibilityState: 'visible', hasFocus: () => true };
   host.window = { AudioContext: MockAudioContext };
   host.document = documentMock;
-  host.fetch = async () => ({ ok: true, arrayBuffer: async () => new ArrayBuffer(0) });
   try {
     const audio = await import('../src/services/audio.ts');
-    audio.setMusicScene('menu');
+    audio.playSelectSound();
     assert.equal(starts, 0, 'autoplay waits for a gesture');
     audio.unlockAudio();
-    await new Promise((resolvePromise) => setTimeout(resolvePromise, 0));
+    assert.equal(starts, 0);
+    audio.playSelectSound();
     assert.equal(starts, 1);
+    assert.ok(stopTimes[0] > 0 && stopTimes[0] < .15);
     audio.setSoundEnabled(false);
-    assert.equal(stops, 0, 'SFX mute must not stop the music');
+    audio.playSelectSound();
+    assert.equal(starts, 1);
+    audio.setSoundEnabled(true);
     audio.pauseAudio();
-    assert.equal(stops, 1);
+    audio.playSelectSound();
+    assert.equal(starts, 1);
     documentMock.visibilityState = 'hidden';
     audio.resumeAudio();
+    audio.playSelectSound();
     assert.equal(starts, 1);
     documentMock.visibilityState = 'visible';
     audio.resumeAudio();
-    await new Promise((resolvePromise) => setTimeout(resolvePromise, 0));
-    assert.equal(starts, 2);
-    audio.setMusicEnabled(false);
-    audio.resumeAudio();
+    audio.playSelectSound();
     assert.equal(starts, 2);
     audio.pauseAudio();
   } finally { Object.assign(host, previous); }
@@ -865,7 +872,10 @@ test('incremental level build skips unchanged outputs and supports --force seman
 
 test('300-entry development fixture filters quickly and contains no geometry', async () => {
   const manifest = JSON.parse(await readFile(generatedManifestPath, 'utf8'));
-  assert.equal(manifest.length, 120, 'fake levels must not enter the production manifest');
+  const levels = await levelsPromise;
+  assert.equal(manifest.length, 110, 'fake levels must not enter the production manifest');
+  assert.deepEqual(manifest.map(({ id, order }: { id: string; order: number }) => [id, order]),
+    levels.map(({ metadata }, index) => [metadata.id, index + 1]));
   const fixture = makeCatalogFixture(manifest, 300);
   const started = performance.now();
   for (let run = 0; run < 100; run += 1) filterCatalog(fixture, {}, 'en', 'cat', 'animals', 'new');

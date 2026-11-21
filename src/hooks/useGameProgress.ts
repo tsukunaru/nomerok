@@ -69,7 +69,7 @@ export const useGameProgress = () => {
     }));
   }, [commit]);
 
-  const updateSettings = useCallback((settings: { sound?: boolean; music?: boolean; tutorialCompleted?: boolean; language?: LanguageSetting }) => {
+  const updateSettings = useCallback((settings: { sound?: boolean; tutorialCompleted?: boolean; language?: LanguageSetting }) => {
     commit((current) => ({
       ...current,
       settings: { ...current.settings, ...settings, updatedAt: Date.now() },
